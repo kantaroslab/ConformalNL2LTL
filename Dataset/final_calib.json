@@ -1,0 +1,4071 @@
+[
+  {
+    "nlTask": "Do not enter garage 1 until you take a picture of landmark 5",
+    "ltlequ": [
+      "!garage_1U(landmark_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you never retrieve package 5",
+    "ltlequ": [
+      "[]!p_package_5/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to street 7 while you take package 3 from store 9 to house 1",
+    "ltlequ": [
+      "[]!street_7&&<>(store_9&&<>(p_package_3&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Start by visiting mall 5 to pick up box 4, and then move it to house 1",
+    "ltlequ": [
+      "<>(mall_5&&<>(p_box_4&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to intersection 1 before arriving at street 6, and ensure you take cone 3 from street 2 and place it in intersection 1",
+    "ltlequ": [
+      "!intersection_1Ustreet_6&&<>(street_2&&<>(p_cone_3&&<>(intersection_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Never pick up package 5",
+    "ltlequ": [
+      "[]!p_package_5/"
+    ]
+  },
+  {
+    "nlTask": "Stay within street 8 at all times",
+    "ltlequ": [
+      "[]street_8/"
+    ]
+  },
+  {
+    "nlTask": "Always stay away from parking lot 5 while ensuring you take a picture of car 3",
+    "ltlequ": [
+      "[]!parking_lot_5&&<>(car_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Always be in locality 5 as you take package 5 from office 3 to office 6",
+    "ltlequ": [
+      "[]locality_5&&<>(office_3&&<>(p_package_5&&<>(office_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Visit statue 5 and take a picture of it",
+    "ltlequ": [
+      "<>(statue_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you repeatedly take a picture of intersection 4 over time",
+    "ltlequ": [
+      "[]<>(intersection_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Keep staying within street 5 while regularly photographing parking lot 4",
+    "ltlequ": [
+      "[]street_5&&[]<>(parking_lot_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay in area 3",
+    "ltlequ": [
+      "[]area_3/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from room 2 until you collect bottle 4 from kitchen 1 and deliver it to table 4",
+    "ltlequ": [
+      "!room_2U(kitchen_1&&<>(p_bottle_4&&<>(table_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Pick up trash can 4 from house 1 and deliver it to gabage dump 3",
+    "ltlequ": [
+      "<>(house_1&&<>(p_trash_can_4&&<>(garbage_dump_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering parking lot 8 as you go to street 5",
+    "ltlequ": [
+      "[]!parking_lot_8&&<>street_5/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter park 5 until you reach intersection 5 as you take a picture of monument 3",
+    "ltlequ": [
+      "!park_5Uintersection_5&&<>(monument_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you never go into park 2",
+    "ltlequ": [
+      "[]!park_2/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to intersection 5 until you reach street 4 as you take pass 4 from house 4 to office 1",
+    "ltlequ": [
+      "!intersection_5Ustreet_4&&<>(house_4&&<>(p_pass_4&&<>(office_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Repeatedly take brochure 8 from table 2 to street 9 while consistently visiting charger 6",
+    "ltlequ": [
+      "[]<>(table_2&&<>(p_brochure_8&&<>(street_9&&pd)))&&[]<>charger_6/"
+    ]
+  },
+  {
+    "nlTask": "Do not collect cone 2 before going to intersection 4",
+    "ltlequ": [
+      "!p_cone_2Uintersection_4/"
+    ]
+  },
+  {
+    "nlTask": "Avoid picking up box 3",
+    "ltlequ": [
+      "[]!p_box_3/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from park 5 until you arrive at intersection 5, and afterward, take a picture of monument 3",
+    "ltlequ": [
+      "!park_5Uintersection_5&&<>(monument_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Eventually go to park 5",
+    "ltlequ": [
+      "<>park_5/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking pictures of car 1 but never enter parking lot 9",
+    "ltlequ": [
+      "[]<>(car_1&&photo)&&[]!parking_lot_9/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you visit park 5",
+    "ltlequ": [
+      "<>park_5/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting building 5",
+    "ltlequ": [
+      "[]<>building_5/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering park 4 until you reach street 3, and then transport takeout 2 from store 7 to bench 3",
+    "ltlequ": [
+      "!park_4Ustreet_3&&<>(store_7&&<>(p_takeout_2&&<>(bench_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep photographing statue 4 while ensuring you also keep revisiting charger 4",
+    "ltlequ": [
+      "[]<>(statue_4&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Pick up dish 2 from parking lot 2",
+    "ltlequ": [
+      "<>(parking_lot_2&&p_dish_2)/"
+    ]
+  },
+  {
+    "nlTask": "Eventually, you need to visit bench 4, capture a photo, and stay there permanently",
+    "ltlequ": [
+      "<>(bench_4&&photo&&[]bench_4)/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to landmark 5 before reaching park 5, and ensure you eventually take a picture of landmark 5",
+    "ltlequ": [
+      "!landmark_5Upark_5&&<>(landmark_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve trash can 4 at house 1 and move it to garbage dump 3",
+    "ltlequ": [
+      "<>(house_1&&<>(p_trash_can_4&&<>(garbage_dump_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Repeatedly transport brochure 8 from table 2 to street 9 while repeatedly visiting charger 6",
+    "ltlequ": [
+      "[]<>(table_2&&<>(p_brochure_8&&<>(street_9&&pd)))&&[]<>charger_6/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting charger 2 and take plate 4 from table 2 to table 4",
+    "ltlequ": [
+      "[]<>charger_2&&<>(table_2&&<>(p_plate_4&&<>(table_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in parking lot 5 until you capture a photo of car 5",
+    "ltlequ": [
+      "parking_lot_5U(car_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Keep delivering crate 8 from mall 5 to office 6",
+    "ltlequ": [
+      "[]<>(mall_5&&<>(p_crate_8&&<>(office_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in park 8 until you take a picture of monument 2 and then go to bench 5 and stay there",
+    "ltlequ": [
+      "park_8U(monument_2&&photo&&<>(bench_5&&[]bench_5))/"
+    ]
+  },
+  {
+    "nlTask": "Stay within park 4 until you capture a picture of statue 9",
+    "ltlequ": [
+      "park_4U(statue_9&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to statue 5 to take a picture",
+    "ltlequ": [
+      "<>(statue_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "First go to park 5 and then make sure to photograph monument 3",
+    "ltlequ": [
+      "<>(park_5&&<>(monument_3&&photo))/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking crate 3 from warehouse 4 to mall 3",
+    "ltlequ": [
+      "[]<>(warehouse_4&&<>(p_crate_3&&<>(mall_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to mall 5 and stay there",
+    "ltlequ": [
+      "<>[]mall_5/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to store 4 until you reach street 6 as you take package 8 from office 2 to store 4",
+    "ltlequ": [
+      "!store_4Ustreet_6&&<>(office_2&&<>(p_package_8&&<>(store_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay out of locality 5 until you retrieve pass 5 from house 2 and put it in office 3",
+    "ltlequ": [
+      "!locality_5U(house_2&&<>(p_pass_5&&<>(office_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you keep moving box 2 from store 4 to hall 8",
+    "ltlequ": [
+      "[]<>(store_4&&<>(p_box_2&&<>(hall_8&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from entering park 4 until you arrive at street 3, and then take takeout 2 from store 7 to bench 3",
+    "ltlequ": [
+      "!park_4Ustreet_3&&<>(store_7&&<>(p_takeout_2&&<>(bench_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure that you never pick up box 3",
+    "ltlequ": [
+      "[]!p_box_3/"
+    ]
+  },
+  {
+    "nlTask": "Persistently photograph building 5 while maintaining consistent visits to charger 4",
+    "ltlequ": [
+      "[]<>(building_5&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve letter 3 at post office 1 and take it to house 2",
+    "ltlequ": [
+      "<>(post_office_1&&<>(p_letter_3&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not pick up cone 2 until you go to intersection 4",
+    "ltlequ": [
+      "!p_cone_2Uintersection_4/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you never go to street 3 while traveling to building 4",
+    "ltlequ": [
+      "[]!street_3&&<>building_4/"
+    ]
+  },
+  {
+    "nlTask": "Keep returning to car 3 as you work your way to building 2",
+    "ltlequ": [
+      "[]<>car_3&&<>building_2/"
+    ]
+  },
+  {
+    "nlTask": "Continuously take a picture of area 51 while also repeatedly visiting charger 4",
+    "ltlequ": [
+      "[]<>(area_51&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of statue 2, but only after reaching park 5",
+    "ltlequ": [
+      "<>(park_5&&<>(statue_2&&photo))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure parking lot 8 is not visited while traveling to street 5",
+    "ltlequ": [
+      "[]!parking_lot_8&&<>street_5/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to building 9 under any circumstances",
+    "ltlequ": [
+      "[]!building_9/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to park 3 as you take a picture of monument 3",
+    "ltlequ": [
+      "[]!park_3&&<>(monument_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Get package 4 from store 2 and subsequently transport it to house 4",
+    "ltlequ": [
+      "<>(store_2&&<>(p_package_4&&<>(house_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Eventually visit section 3 while refraining from entering hall 5 at any time",
+    "ltlequ": [
+      "<>section_3&&[]!hall_5/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter park 4 until you reach street 3 as you take takeout 2 from store 7 to bench 3",
+    "ltlequ": [
+      "!park_4Ustreet_3&&<>(store_7&&<>(p_takeout_2&&<>(bench_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you keep capturing photos of area 51 while consistently revisiting charger 4",
+    "ltlequ": [
+      "[]<>(area_51&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you stay in building 2 until you make your way to path 3",
+    "ltlequ": [
+      "building_2Upath_3/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to parking lot 4 before arriving at building 8",
+    "ltlequ": [
+      "!parking_lot_4Ubuilding_8/"
+    ]
+  },
+  {
+    "nlTask": "Always eventually visit parking lot 4, and ensure that you eventually go to car 5, pick up document 4, and then go to car 6 and deliver it",
+    "ltlequ": [
+      "[]<>parking_lot_4&&<>(car_5&&<>(p_document_4&&<>(car_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Continuously transport crate 8 from warehouse 4 to store 8 while repeatedly visiting charger 2",
+    "ltlequ": [
+      "[]<>(warehouse_4&&<>(p_crate_8&&<>(store_8&&pd)))&&[]<>charger_2/"
+    ]
+  },
+  {
+    "nlTask": "Go to house 4, collect trash 4, and place it at garbage dump 1",
+    "ltlequ": [
+      "<>(house_4&&<>(p_trash_4&&<>(garbage_dump_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting charger 9 as you keep taking crate 2 from warehouse 8 to store 2",
+    "ltlequ": [
+      "[]<>charger_9&&[]<>(warehouse_8&&<>(p_crate_2&&<>(store_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Pick up pass 2 from house 3 and deliver it to office 2, ensuring you do not enter street 5 before retrieving pass 2",
+    "ltlequ": [
+      "<>(house_3&&<>(p_pass_2&&<>(office_2&&pd)))&&!street_5Up_pass_2/"
+    ]
+  },
+  {
+    "nlTask": "Go to house 4 to pick up stack 4 and then proceed to street 2 and stay there",
+    "ltlequ": [
+      "<>(house_4&&<>(p_stack_4&&<>(street_2&&[]street_2)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep photographing car 1, ensuring you never enter parking lot 9",
+    "ltlequ": [
+      "[]<>(car_1&&photo)&&[]!parking_lot_9/"
+    ]
+  },
+  {
+    "nlTask": "Remain at building 2 until you have reached path 3",
+    "ltlequ": [
+      "building_2Upath_3/"
+    ]
+  },
+  {
+    "nlTask": "Remain in street 6 until you arrive at intersection 8",
+    "ltlequ": [
+      "street_6Uintersection_8/"
+    ]
+  },
+  {
+    "nlTask": "Remain in house 4 until you arrive at room 2",
+    "ltlequ": [
+      "house_4Uroom_2/"
+    ]
+  },
+  {
+    "nlTask": "Keep delivering crate 1 from storage 4 to office 2 over and over",
+    "ltlequ": [
+      "[]<>(storage_4&&<>(p_crate_1&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to park 5 until you reach intersection 5 as you take a photo of monument 3",
+    "ltlequ": [
+      "!park_5Uintersection_5&&<>(monument_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Remain in locality 6 until you take package 3 from store 8 and deliver it to house 5",
+    "ltlequ": [
+      "locality_6U(store_8&&<>(p_package_3&&<>(house_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Deliver letter 3 to house 2 from post office 1",
+    "ltlequ": [
+      "<>(post_office_1&&<>(p_letter_3&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid street 4 as you transport package 8 from store 7 to house 2",
+    "ltlequ": [
+      "[]!street_4&&<>(store_7&&<>(p_package_8&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter street 4 before reaching intersection 6 and then stay in street 4 continuously",
+    "ltlequ": [
+      "!street_4Uintersection_6&&<>[]street_4/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve brochure 2 from table 8 and then take it to table 1",
+    "ltlequ": [
+      "<>(table_8&&<>(p_brochure_2&&<>(table_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to street 5 and then go to building 2 and stay there",
+    "ltlequ": [
+      "<>(street_5&&<>(building_2&&[]building_2))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in street 4 until you take a photo of house 1",
+    "ltlequ": [
+      "street_4U(house_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Eventually(Ensure you capture a photo of monument 12 and stay there)",
+    "ltlequ": [
+      "<>(monument_12&&photo&&[]monument_12)/"
+    ]
+  },
+  {
+    "nlTask": "Remain in street 6 before getting to intersection 8",
+    "ltlequ": [
+      "street_6Uintersection_8/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from intersection 1 until you get to street 6, and afterward, deliver cone 3 from street 2 to intersection 1",
+    "ltlequ": [
+      "!intersection_1Ustreet_6&&<>(street_2&&<>(p_cone_3&&<>(intersection_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting street 5",
+    "ltlequ": [
+      "[]<>street_5/"
+    ]
+  },
+  {
+    "nlTask": "Stay in county 4 and keep taking package 4 from office 3 to office 8",
+    "ltlequ": [
+      "[]county_4&&[]<>(office_3&&<>(p_package_4&&<>(office_8&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in parking lot 9 until you take a picture of car 2",
+    "ltlequ": [
+      "parking_lot_9U(car_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Eventually (take a picture of landmark 9 and stay at landmark 9 permanently)",
+    "ltlequ": [
+      "<>(landmark_9&&photo&&[]landmark_9)/"
+    ]
+  },
+  {
+    "nlTask": "Put down whatever you are carrying and head to parking lot 2",
+    "ltlequ": [
+      "<>(pd&&<>parking_lot_2)/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from entering store 4 until you arrive at street 6, while delivering package 8 from office 2 to store 4",
+    "ltlequ": [
+      "!store_4Ustreet_6&&<>(office_2&&<>(p_package_8&&<>(store_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Capture a photo of arch 4 but never go to park 2",
+    "ltlequ": [
+      "<>(arch_4&&photo)&&[]!park_2/"
+    ]
+  },
+  {
+    "nlTask": "Stay in street 6 until you reach intersection 8",
+    "ltlequ": [
+      "street_6Uintersection_8/"
+    ]
+  },
+  {
+    "nlTask": "Take tin can 4 from table 4, deposit it in trash can 5, and ensure you do not enter hallway 2",
+    "ltlequ": [
+      "<>(table_4&&<>(p_tin_can_4&&<>(trash_can_5&&pd)))&&[]!hallway_2/"
+    ]
+  },
+  {
+    "nlTask": "Capture the image of monument 1 but refrain from entering monument until you have reached park 4",
+    "ltlequ": [
+      "<>(monument_1&&photo)&&!monument_1Upark_4/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to store 4 until you reach street 6, while ensuring you transport package 8 from office 2 to store 4",
+    "ltlequ": [
+      "!store_4Ustreet_6&&<>(office_2&&<>(p_package_8&&<>(store_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay within park 2 until you capture a photo of monument 13",
+    "ltlequ": [
+      "park_2U(monument_13&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Take letter 4 from office 5 to house 2",
+    "ltlequ": [
+      "<>(office_5&&<>(p_letter_4&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in area 5 until you take package 8 from store 2 and deliver it to house 9",
+    "ltlequ": [
+      "area_5U(store_2&&<>(p_package_8&&<>(house_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking a picture of monument 8 but do not go to monument 8 until you reach park 4",
+    "ltlequ": [
+      "[]<>(monument_8&&photo)&&!monument_8Upark_4/"
+    ]
+  },
+  {
+    "nlTask": "Always remain in locality 7 while transporting letter 1 from office 4 to house 1",
+    "ltlequ": [
+      "[]locality_7&&<>(office_4&&<>(p_letter_1&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Pick up bottle 2 from kitchen 1 and go to hall 2 and stay there",
+    "ltlequ": [
+      "<>(kitchen_1&&<>(p_bottle_2&&<>(hall_2&&[]hall_2)))/"
+    ]
+  },
+  {
+    "nlTask": "Persistently stay within street 5 while regularly photographing parking lot 4",
+    "ltlequ": [
+      "[]street_5&&[]<>(parking_lot_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you repeatedly ccapture images of landmark 21",
+    "ltlequ": [
+      "[]<>(landmark_21&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Make sure to go to bench 4, take a picture, and remain at that location",
+    "ltlequ": [
+      "<>(bench_4&&photo&&[]bench_4)/"
+    ]
+  },
+  {
+    "nlTask": "Until you reach building 4, avoid room 4",
+    "ltlequ": [
+      "!room_4Ubuilding_4/"
+    ]
+  },
+  {
+    "nlTask": "Eventually (Take a photo of monument 12 and also stay at monument 12 forever)",
+    "ltlequ": [
+      "<>(monument_12&&photo&&[]monument_12)/"
+    ]
+  },
+  {
+    "nlTask": "Release anything you are holding and proceed to parking lot 2",
+    "ltlequ": [
+      "<>(pd&&<>parking_lot_2)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you collect box 5 from plant 8, then take it to store 6",
+    "ltlequ": [
+      "<>(plant_8&&<>(p_box_5&&<>(store_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Eventually collect stack 4 from house 4 and go to street 2 and stay there",
+    "ltlequ": [
+      "<>(house_4&&<>(p_stack_4&&<>(street_2&&[]street_2)))/"
+    ]
+  },
+  {
+    "nlTask": "Reach parking lot 5 and ensure you do not leave it.",
+    "ltlequ": [
+      "<>[]parking_lot_5/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of monument 1 but do not go to monument 1 until you reach park 4",
+    "ltlequ": [
+      "<>(monument_1&&photo)&&!monument_1Upark_4/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve box 5 from plant 8 and subsequently transport it to store 6",
+    "ltlequ": [
+      "<>(plant_8&&<>(p_box_5&&<>(store_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Take bottle 3 from store 1 and put it in hospital 2",
+    "ltlequ": [
+      "<>(shop_1&&<>(p_bottle_3&&<>(hospital_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Pick up traffic cone 5 from street 4 and subsequently place it in intersection 6",
+    "ltlequ": [
+      "<>(street_4&&<>(p_traffic_cone_5&&<>(intersection_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to house 2 and pick up trash can 2",
+    "ltlequ": [
+      "<>(house_2&&p_trash_can_2)/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to building 8 until you have reached parking lot 8",
+    "ltlequ": [
+      "!building_8Uparking_lot_8/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you keep taking images of locality 7 and never enter park 3",
+    "ltlequ": [
+      "[]<>(locality_7&&photo)&&[]!park_3/"
+    ]
+  },
+  {
+    "nlTask": "Continuously stay in locality 9 without leaving",
+    "ltlequ": [
+      "[]locality_9/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering park 9 until you visit gate 7 and take a picture",
+    "ltlequ": [
+      "!park_9U(gate_7&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve package 4 from store 2 and then deliver it to house 4",
+    "ltlequ": [
+      "<>(store_2&&<>(p_package_4&&<>(house_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Persistently take pictures of area 4 while repeatedly capturing images of area 3",
+    "ltlequ": [
+      "[]<>(area_4&&photo)&&[]<>(area_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay within area 5 continuously",
+    "ltlequ": [
+      "[]area_5/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you collect brochure 9 from table 2, travel to park 4, and remain there continuously",
+    "ltlequ": [
+      "<>(table_2&&<>(p_brochure_9&&<>(park_4&&[]park_4)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in area 5",
+    "ltlequ": [
+      "[]area_5/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter intersection 1 until you reach street 6 as you take cone 3 from street 2 and put it in intersection 1",
+    "ltlequ": [
+      "!intersection_1Ustreet_6&&<>(street_2&&<>(p_cone_3&&<>(intersection_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting charger 3 as you periodically take pictures of area 3",
+    "ltlequ": [
+      "[]<>charger_3&&[]<>(area_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Always avoid going to park 5",
+    "ltlequ": [
+      "[]!park_5/"
+    ]
+  },
+  {
+    "nlTask": "Capture an image of car 1 while avoiding street 6 indefinitely",
+    "ltlequ": [
+      "[]!street_6&&<>(car_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Place bottle 3 in kitchen 4 after getting it from bedroom 2",
+    "ltlequ": [
+      "<>(bedroom_2&&<>(p_bottle_3&&<>(kitchen_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Eventually visit statue 6 and take a picture of it while remaining in park 5",
+    "ltlequ": [
+      "<>(statue_6&&photo)&&[]park_5/"
+    ]
+  },
+  {
+    "nlTask": "Avoid landmark 5 until you reach park 5, and eventually take a picture of landmark 5.",
+    "ltlequ": [
+      "!landmark_5Upark_5&&<>(landmark_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter building 3 before arriving at street 6, while ensuring you take box 8 from store 3 to house 2",
+    "ltlequ": [
+      "!building_3Ustreet_6&&<>(store_3&&<>(p_box_8&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Always avoid entering house 1",
+    "ltlequ": [
+      "[]!house_1/"
+    ]
+  },
+  {
+    "nlTask": "Deliver pass 2 from house 3 to office 2 but do not enter street 5 until you pick up pass 2",
+    "ltlequ": [
+      "<>(house_3&&<>(p_pass_2&&<>(office_2&&pd)))&&!street_5Up_pass_2/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to street 5 before reaching store 1 and taking package 4 from there.",
+    "ltlequ": [
+      "!street_5U(store_1&&p_package_4)/"
+    ]
+  },
+  {
+    "nlTask": "Go to statue 7 and take a photo there",
+    "ltlequ": [
+      "<>(statue_7&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Always stay within the boundaries of area 3",
+    "ltlequ": [
+      "[]area_3/"
+    ]
+  },
+  {
+    "nlTask": "Collect takeout 2 from restaurant 9 and take it to house 1",
+    "ltlequ": [
+      "<>(restaurant_9&&<>(takeout_2&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in county 4 and continuously transport package 4 from office 3 to office 8",
+    "ltlequ": [
+      "[]county_4&&[]<>(office_3&&<>(p_package_4&&<>(office_8&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in area 5 until you take package 8 from store 2 to house 9",
+    "ltlequ": [
+      "area_5U(store_2&&<>(p_package_8&&<>(house_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Find cone 5 in intersection 5 and take it to street 2",
+    "ltlequ": [
+      "<>(intersection_5&&<>(p_cone_5&&<>(street_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay out of building 1 until you get to street 4.",
+    "ltlequ": [
+      "!building_1Ustreet_4/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from entering park 5 throughout",
+    "ltlequ": [
+      "[]!park_5/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you reach statue 7 and take a picture",
+    "ltlequ": [
+      "<>(statue_7&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from entering landmark 5 until you reach park 5, and then ensure you take a picture of landmark 5 at some point",
+    "ltlequ": [
+      "!landmark_5Upark_5&&<>(landmark_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from parking lot 4 until building 8 is reached",
+    "ltlequ": [
+      "!parking_lot_4Ubuilding_8/"
+    ]
+  },
+  {
+    "nlTask": "Reach statue 5 to take a photograph",
+    "ltlequ": [
+      "<>(statue_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Take a photograph of landmark 6",
+    "ltlequ": [
+      "<>(landmark_6&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Remain in parking lot 5 until you capture a picture of car 5",
+    "ltlequ": [
+      "parking_lot_5U(car_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you repeatedly capture photos of street 3",
+    "ltlequ": [
+      "[]<>(street_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking a picture of area 51 while you also keep visiting charger 4",
+    "ltlequ": [
+      "[]<>(area_51&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter park 6 until you pick up pass 4",
+    "ltlequ": [
+      "!park_6Up_pass_4/"
+    ]
+  },
+  {
+    "nlTask": "Ensure crate 8 is delivered from mall 5 to office 6 over and over again",
+    "ltlequ": [
+      "[]<>(mall_5&&<>(p_crate_8&&<>(office_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in parking lot 4 until you take a picture of car 5",
+    "ltlequ": [
+      "parking_lot_4U(car_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you take traffic cone 5 from street 4 and then move it to intersection 6",
+    "ltlequ": [
+      "<>(street_4&&<>(p_traffic_cone_5&&<>(intersection_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering house 3 at all times",
+    "ltlequ": [
+      "[]!house_3/"
+    ]
+  },
+  {
+    "nlTask": "Always avoid entering park 2",
+    "ltlequ": [
+      "[]!park_2/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you reach parking lot 3 and stay there continuously",
+    "ltlequ": [
+      "<>[]parking_lot_3/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you never go into house 1",
+    "ltlequ": [
+      "[]!house_1/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from going to room 4 before you arrive at building 4",
+    "ltlequ": [
+      "!room_4Ubuilding_4/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve tin can 4 from table 4, place it in trash can 5, and ensure you never enter hallway 2",
+    "ltlequ": [
+      "<>(table_4&&<>(p_tin_can_4&&<>(trash_can_5&&pd)))&&[]!hallway_2/"
+    ]
+  },
+  {
+    "nlTask": "Start by picking up brochure 5 from table 2 and then put it in street 5",
+    "ltlequ": [
+      "<>(table_2&&<>(p_brochure_5&&<>(street_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in park 1 until you reach table 3",
+    "ltlequ": [
+      "park_1Utable_3/"
+    ]
+  },
+  {
+    "nlTask": "Go to street 2 and stay there",
+    "ltlequ": [
+      "<>[]street_2/"
+    ]
+  },
+  {
+    "nlTask": "Go to house 5 and stay there",
+    "ltlequ": [
+      "<>[]house_5/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you never enter park 3 while retrieving cone 2 from police station 1 and placing it in intersection 2.",
+    "ltlequ": [
+      "[]!park_3&&<>(police_station_1&&p_cone_2&&<>(intersection_2&&pd))/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter house 1 under any circumstances",
+    "ltlequ": [
+      "[]!house_1/"
+    ]
+  },
+  {
+    "nlTask": "Pick up package 4 from store 2 and place it in house 4",
+    "ltlequ": [
+      "<>(store_2&&<>(p_package_4&&<>(house_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Persistently take pictures of street 3",
+    "ltlequ": [
+      "[]<>(street_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you go to park 5 and afterward take a picture of monument 3",
+    "ltlequ": [
+      "<>(park_5&&<>(monument_3&&photo))/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking a picture of building 5 while you also keep visiting charger 4",
+    "ltlequ": [
+      "[]<>(building_5&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Avoid parking lot 4 until building 8 is reached",
+    "ltlequ": [
+      "!parking_lot_4Ubuilding_8/"
+    ]
+  },
+  {
+    "nlTask": "Continuously visit area 2 and take a picture each time",
+    "ltlequ": [
+      "[]<>(area_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to building 3 until you reach street 6 as you take box 8 from store 3 to house 2",
+    "ltlequ": [
+      "!building_3Ustreet_6&&<>(store_3&&<>(p_box_8&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you continuously transport crate 8 from mall 5 to office 6",
+    "ltlequ": [
+      "[]<>(mall_5&&<>(p_crate_8&&<>(office_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not interact with crate 8 by picking it up at any point",
+    "ltlequ": [
+      "[]!p_crate_8/"
+    ]
+  },
+  {
+    "nlTask": "Go and reach park 5",
+    "ltlequ": [
+      "<>park_5/"
+    ]
+  },
+  {
+    "nlTask": "Keep capturing images of locality 7, and avoid going to park 3 at all times",
+    "ltlequ": [
+      "[]<>(locality_7&&photo)&&[]!park_3/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting charging station 9 as you keep taking crate 4 from warehouse 5 to mall 4",
+    "ltlequ": [
+      "[]<>charging_station_9&&[]<>(warehouse_5&&<>(p_crate_4&&<>(mall_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Persistently remain in locality 7 as you collect letter 1 from office 4 and deliver it to house 1",
+    "ltlequ": [
+      "[]locality_7&&<>(office_4&&<>(p_letter_1&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Put down anything you hold and go to parking lot 2",
+    "ltlequ": [
+      "<>(pd&&<>parking_lot_2)/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter office 4 until you have picked up pass 6, and ensure that you eventually go to house 5, retrieve pass 6, and subsequently deliver it to office 4",
+    "ltlequ": [
+      "!office_4Up_pass_6&&<>(house_5&&<>(p_pass_6&&<>(office_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you visit charging station 5 regularly while continuously moving package 5 from warehouse1 to store 5",
+    "ltlequ": [
+      "[]<>charging_station_5&&[]<>(warehouse_1&&<>(p_package_5&&<>(store_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to parkinglot 2 while ensureing you do not place anything down.",
+    "ltlequ": [
+      "<>parking_lot_2&&[]!pd/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to street 4 as you deliver package 8 from store 7 to house 2",
+    "ltlequ": [
+      "[]!street_4&&<>(store_7&&<>(p_package_8&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "You must stay in parking lot 5 until you finish taking a picture of car 5",
+    "ltlequ": [
+      "parking_lot_5U(car_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from entering park 2 at all times",
+    "ltlequ": [
+      "[]!park_2/"
+    ]
+  },
+  {
+    "nlTask": "Reach parking lot 2 while avoiding the action of putting items down",
+    "ltlequ": [
+      "<>parking_lot_2&&[]!pd/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you keep returning to street 4 periodically",
+    "ltlequ": [
+      "[]<>street_4/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting charging station 5 and keep taking package 5 from warehouse 1 to store 5",
+    "ltlequ": [
+      "[]<>charging_station_5&&[]<>(warehouse_1&&<>(p_package_5&&<>(store_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you continuously stay in street 8",
+    "ltlequ": [
+      "[]street_8/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from store 4 until you reach street 6, and make sure to move package 8 from office 2 to store 4",
+    "ltlequ": [
+      "!store_4Ustreet_6&&<>(office_2&&<>(p_package_8&&<>(store_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "First go to street 5, then proceed to building 2 and stay there",
+    "ltlequ": [
+      "<>(street_5&&<>(building_2&&[]building_2))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you go to mall 5, retrieve box 4, and then transport it to house 1",
+    "ltlequ": [
+      "<>(mall_5&&<>(p_box_4&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering building 1 until street 4 has been reached.",
+    "ltlequ": [
+      "!building_1Ustreet_4/"
+    ]
+  },
+  {
+    "nlTask": "Keep take pictures of car 1 while refraining from visiting parking lot 9",
+    "ltlequ": [
+      "[]<>(car_1&&photo)&&[]!parking_lot_9/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve bottle 3 from store 1 and place it in hospital 2.",
+    "ltlequ": [
+      "<>(shop_1&&<>(p_bottle_3&&<>(hospital_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Take takeout 2 from restaurant 9 and move it to house 1",
+    "ltlequ": [
+      "<>(restaurant_9&&<>(takeout_2&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Never enter street 6, and eventually take a picture of car 1",
+    "ltlequ": [
+      "[]!street_6&&<>(car_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to statue 6, take its photograph, and ensure you continuously stay in park 5",
+    "ltlequ": [
+      "<>(statue_6&&photo)&&[]park_5/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you stay away from building 8 until parking lot 8 is visited",
+    "ltlequ": [
+      "!building_8Uparking_lot_8/"
+    ]
+  },
+  {
+    "nlTask": "Visit statue 7 and capture an image",
+    "ltlequ": [
+      "<>(statue_7&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Take box 8 from house 3 and move it to office 2",
+    "ltlequ": [
+      "<>(house_3&&<>(p_box_8&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Deliver box 4 from house 5 to office 2",
+    "ltlequ": [
+      "<>(house_5&&<>(p_box_4&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Regularly visit street 4",
+    "ltlequ": [
+      "[]<>street_4/"
+    ]
+  },
+  {
+    "nlTask": "Continuously revisit mall 5, and ensure that each time you eventually pick up crate 8 and deliver it to office 6",
+    "ltlequ": [
+      "[]<>(mall_5&&<>(p_crate_8&&<>(office_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting parking lot 4 as you take document 4 from car 5 to car 6",
+    "ltlequ": [
+      "[]<>parking_lot_4&&<>(car_5&&<>(p_document_4&&<>(car_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to building 3 until you reach street 6, and then transport box 8 from store 3 to house 2",
+    "ltlequ": [
+      "!building_3Ustreet_6&&<>(store_3&&<>(p_box_8&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in locality 2 while transporting document 5 from office 4 to office 9",
+    "ltlequ": [
+      "[]locality_2&&<>(office_4&&<>(p_document_5&&<>(office_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking box 2 from store 4 to hall 8",
+    "ltlequ": [
+      "[]<>(store_4&&<>(p_box_2&&<>(hall_8&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you visit table 8, collect brochure 2, and transport it to table 1",
+    "ltlequ": [
+      "<>(table_8&&<>(p_brochure_2&&<>(table_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not touch letter 8 under any circumstances",
+    "ltlequ": [
+      "[]!p_letter_8/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from visiting parking lot 4 until you get to building 8",
+    "ltlequ": [
+      "!parking_lot_4Ubuilding_8/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering street 3 at all times",
+    "ltlequ": [
+      "[]!street_3/"
+    ]
+  },
+  {
+    "nlTask": "Pick up box 8 from house 3 and place it in office 2",
+    "ltlequ": [
+      "<>(house_3&&<>(p_box_8&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in park 5 until you reach bench 4 as you take bottle 5 from store 2 and deliver it to bench 4",
+    "ltlequ": [
+      "park_5Ubench_4&&<>(store_2&&<>(p_bottle_5&&<>(bench_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Visit mall 5, pick up box 4, and deliver it to house 1",
+    "ltlequ": [
+      "<>(mall_5&&<>(p_box_4&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to hospital 3 and pick up water bottle 4 while never entering pharmacy 2",
+    "ltlequ": [
+      "<>(hospital_3&&p_bottle_4)&&[]!pharmacy_2/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of car 1 while never entering street 6",
+    "ltlequ": [
+      "[]!street_6&&<>(car_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Remain in locality 3 until you arrive at office 4",
+    "ltlequ": [
+      "locality_3Uoffice_4/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture at statue 7 after visiting it",
+    "ltlequ": [
+      "<>(statue_7&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Never touch package 4",
+    "ltlequ": [
+      "[]!p_package_4/"
+    ]
+  },
+  {
+    "nlTask": "Continuously take pictures of intersection 4 at regular intervals",
+    "ltlequ": [
+      "[]<>(intersection_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "First go to park 7 and after that take a picture of monument 4",
+    "ltlequ": [
+      "<>(park_7&&<>(monument_4&&photo))/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting car 3 on your way to building 2",
+    "ltlequ": [
+      "[]<>car_3&&<>building_2/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking a picture of landmark 21",
+    "ltlequ": [
+      "[]<>(landmark_21&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay in street 4 until you take a picture of house 1",
+    "ltlequ": [
+      "street_4U(house_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay in parking lot 9 until you take a picture of car 2",
+    "ltlequ": [
+      "parking_lot_9U(car_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to intersection 8 until you reach street 3 as you go to locality 5",
+    "ltlequ": [
+      "!intersection_8Ustreet_3&&<>locality_5/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from visiting building 3 until you arrive at street 6, and then ensure you move box 8 from store 3 to house 2",
+    "ltlequ": [
+      "!building_3Ustreet_6&&<>(store_3&&<>(p_box_8&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in house 4 until you make your way to room 2",
+    "ltlequ": [
+      "house_4Uroom_2/"
+    ]
+  },
+  {
+    "nlTask": "Eventually you should find cone 5 in intersection 5 and deliver it to street 2",
+    "ltlequ": [
+      "<>(intersection_5&&<>(p_cone_5&&<>(street_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter park 9 until you go to gate 7 and take a picture",
+    "ltlequ": [
+      "!park_9U(gate_7&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Eventually (you need to go to landmark 9 to take a photo and stay there)",
+    "ltlequ": [
+      "<>(landmark_9&&photo&&[]landmark_9)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up bottle 3 from store 1 and deliver it to hospital 2.",
+    "ltlequ": [
+      "<>(shop_1&&<>(p_bottle_3&&<>(hospital_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking images of locality 7, while you never go to park 3",
+    "ltlequ": [
+      "[]<>(locality_7&&photo)&&[]!park_3/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you visit car 3 repeatedly while making progress toward building 2",
+    "ltlequ": [
+      "[]<>car_3&&<>building_2/"
+    ]
+  },
+  {
+    "nlTask": "Never go to building 2 as you pick up letter 5 from office 6",
+    "ltlequ": [
+      "[]!building_2&&<>(office_6&&p_letter_5)/"
+    ]
+  },
+  {
+    "nlTask": "Remain in area 2 as you continuously visit building 8 to capture photos",
+    "ltlequ": [
+      "[]area_2&&[]<>(building_8&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Never go to building 6",
+    "ltlequ": [
+      "[]!building_6/"
+    ]
+  },
+  {
+    "nlTask": "Stay within locality 1 until you arrive at intersection 4, after which take package 5 from warehouse 9 to store 2",
+    "ltlequ": [
+      "locality_1Uintersection_4&&<>(warehouse_9&&<>(p_package_5&&<>(store_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Pick up box 8 from house 3 and put it in office 2",
+    "ltlequ": [
+      "<>(house_3&&<>(p_box_8&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of building 4 and then go to parking lot 2 and stay there",
+    "ltlequ": [
+      "<>(building_4&&photo&&<>(parking_lot_2&&[]parking_lot_2))/"
+    ]
+  },
+  {
+    "nlTask": "Take trash can 4 from house 1 to garbage dump 3",
+    "ltlequ": [
+      "<>(house_1&&<>(p_trash_can_4&&<>(garbage_dump_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you reach table 4 and stay there continuously",
+    "ltlequ": [
+      "<>[]table_4/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve box 2 from office 4 and subsequently transport it to house 1",
+    "ltlequ": [
+      "<>(office_4&&<>(p_box_2&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to landmark 6 and take a picture of it",
+    "ltlequ": [
+      "<>(landmark_6&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you visit charger 2 regularly as you continue delivering plate 4 from table 2 to table 4",
+    "ltlequ": [
+      "[]<>charger_2&&<>(table_2&&<>(p_plate_4&&<>(table_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter intersection 4 before reaching street 5",
+    "ltlequ": [
+      "!intersection_4Ustreet_5/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering locality 5 until you pick up pass 5 from house 2 and place it in office 3",
+    "ltlequ": [
+      "!locality_5U(house_2&&<>(p_pass_5&&<>(office_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not take a picture until you reach park 5 as you go to take a picture of landmark 4",
+    "ltlequ": [
+      "!photoUpark_5&&<>(landmark_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up water bottle 4 from hospital 3 while staying away from pharmacy 2",
+    "ltlequ": [
+      "<>(hospital_3&&p_bottle_4)&&[]!pharmacy_2/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from landmark 5 until you arrive at park 5, but make sure to eventually photograph landmark 5",
+    "ltlequ": [
+      "!landmark_5Upark_5&&<>(landmark_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to store 5 to collect box 8 and take it to house 1",
+    "ltlequ": [
+      "<>(store_5&&<>(p_box_8&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Staying in parking lot 9 at all times",
+    "ltlequ": [
+      "[]parking_lot_9/"
+    ]
+  },
+  {
+    "nlTask": "Pick up letter 2 from post office 1 and place it in building 3",
+    "ltlequ": [
+      "<>(post_office_1&&<>(p_lettter_2&&<>(building_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking crate 4 from warehouse 3 to store 9 while also periodically visiting charger 3",
+    "ltlequ": [
+      "[]<>(warehouse_3&&<>(p_crate_4&&<>(store_9&&pd)))&&[]<>charger_3/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to street 4 until you reach intersection 6, after which you must go to and remain in street 4",
+    "ltlequ": [
+      "!street_4Uintersection_6&&<>[]street_4/"
+    ]
+  },
+  {
+    "nlTask": "Stay within area 5 until you collect package 8 from store 2 and transport it to house 9",
+    "ltlequ": [
+      "area_5U(store_2&&<>(p_package_8&&<>(house_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Get package 2 from store 3 and take it to house 2 but do not enter mall 1",
+    "ltlequ": [
+      "<>(store_3&&<>(p_package_2&&<>(house_2&&pd)))&&[]!mall_1/"
+    ]
+  },
+  {
+    "nlTask": "Remain in parking lot 4 until you arrive at car 5",
+    "ltlequ": [
+      "parking_lot_4Ucar_5/"
+    ]
+  },
+  {
+    "nlTask": "Go to post office 1, collect letter 2, and put it down in building 3",
+    "ltlequ": [
+      "<>(post_office_1&&<>(p_lettter_2&&<>(building_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Start by picking up box 5 at plant 8, then proceed to deliver it to store 6",
+    "ltlequ": [
+      "<>(plant_8&&<>(p_box_5&&<>(store_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you do not enter street 4 while delivering package 8 from store 7 to house 2",
+    "ltlequ": [
+      "[]!street_4&&<>(store_7&&<>(p_package_8&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Pick up letter 4 from office 5 and deliver it to house 2",
+    "ltlequ": [
+      "<>(office_5&&<>(p_letter_4&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting charger 4 as you keep taking a picture of area 5",
+    "ltlequ": [
+      "[]<>charger_4&&[]<>(area_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up bottle 2 from kitchen 1 and proceed to hall 2, where you stay permanently",
+    "ltlequ": [
+      "<>(kitchen_1&&<>(p_bottle_2&&<>(hall_2&&[]hall_2)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in parking lot 5 until you take a picture of car 5",
+    "ltlequ": [
+      "parking_lot_5U(car_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to office 5 to collect letter 4 and take it to house 2",
+    "ltlequ": [
+      "<>(office_5&&<>(p_letter_4&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay on street 6 until you reach intersection 8",
+    "ltlequ": [
+      "street_6Uintersection_8/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter buildig 8 until you have reached parking lot 8",
+    "ltlequ": [
+      "!building_8Uparking_lot_8/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of building 2",
+    "ltlequ": [
+      "<>(building_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up brochure 9 from table 2 and go to park 4 and stay there",
+    "ltlequ": [
+      "<>(table_2&&<>(p_brochure_9&&<>(park_4&&[]park_4)))/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve cone 5 from intersection 5 and take it to street 2",
+    "ltlequ": [
+      "<>(intersection_5&&<>(p_cone_5&&<>(street_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking crate 1 from storage 4 to office 2",
+    "ltlequ": [
+      "[]<>(storage_4&&<>(p_crate_1&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve traffic cone 5 from street 4 and transport it to intersection 6",
+    "ltlequ": [
+      "<>(street_4&&<>(p_traffic_cone_5&&<>(intersection_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking a picture of intersection 4",
+    "ltlequ": [
+      "[]<>(intersection_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Always avoid picking up package 5",
+    "ltlequ": [
+      "[]!p_package_5/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you stay in parking lot 4 until you capture a picture of car 5",
+    "ltlequ": [
+      "parking_lot_4U(car_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of landmark 6",
+    "ltlequ": [
+      "<>(landmark_6&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Do not approach building 3 until you reach street 6 as you bring box 8 from store 3 to house 2",
+    "ltlequ": [
+      "!building_3Ustreet_6&&<>(store_3&&<>(p_box_8&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Continuously transport crate 6 to building 5 after picking it up from store 2",
+    "ltlequ": [
+      "[]<>(store_2&&<>(p_crate_6&&<>(building_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid building 1 until street 4 is reached",
+    "ltlequ": [
+      "!building_1Ustreet_4/"
+    ]
+  },
+  {
+    "nlTask": "Stay in house 4 until you reach room 2",
+    "ltlequ": [
+      "house_4Uroom_2/"
+    ]
+  },
+  {
+    "nlTask": "Stay in locality 1 until you reach intersection 4 as you take package 5 from warehouse 9 to store 2",
+    "ltlequ": [
+      "locality_1Uintersection_4&&<>(warehouse_9&&<>(p_package_5&&<>(store_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in house 4 till you arrive room 2",
+    "ltlequ": [
+      "house_4Uroom_2/"
+    ]
+  },
+  {
+    "nlTask": "Find and stay at house 5 without leaving",
+    "ltlequ": [
+      "<>[]house_5/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you stay within area 2 while repeatedly taking pictures at building 8",
+    "ltlequ": [
+      "[]area_2&&[]<>(building_8&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to parking lot 5 and stay there forever.",
+    "ltlequ": [
+      "<>[]parking_lot_5/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to park 4 before arriving at street 3, and ensure you move takeout 2 from store 7 to bench 3",
+    "ltlequ": [
+      "!park_4Ustreet_3&&<>(store_7&&<>(p_takeout_2&&<>(bench_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to landmark 9 and take a picture and stay there",
+    "ltlequ": [
+      "<>(landmark_9&&photo&&[]landmark_9)/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking a picture of area 9 while you also periodically take ordnance 3 from camp 4 to camp 9",
+    "ltlequ": [
+      "[]<>(area_9&&photo)&&[]<>(camp_4&&<>(p_ordnance_3&&<>(camp_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from visiting street 4 until you have reached intersection 6, after which you must transition to and stay in street 4",
+    "ltlequ": [
+      "!street_4Uintersection_6&&<>[]street_4/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you collect brochure 3 from table 9 and take it to park 2",
+    "ltlequ": [
+      "<>(table_9&&<>(p_brochure_3&&<>(park_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to mall 5, collect box 4, and subsequently take it to house 1",
+    "ltlequ": [
+      "<>(mall_5&&<>(p_box_4&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure that you never interact with letter 8",
+    "ltlequ": [
+      "[]!p_letter_8/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking a picture of parking lot 4 while you always stay in street 5",
+    "ltlequ": [
+      "[]street_5&&[]<>(parking_lot_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay in park 2 until you take a picture of monument 13",
+    "ltlequ": [
+      "park_2U(monument_13&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to building 3 and stay there but do not go there until you reach garage 3",
+    "ltlequ": [
+      "<>[]building_3&&!building_3Ugarage_3/"
+    ]
+  },
+  {
+    "nlTask": "Always stay in area 2 while repeatedly going to building 8 to take pictures",
+    "ltlequ": [
+      "[]area_2&&[]<>(building_8&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you regularly go to area 2 and take a picture",
+    "ltlequ": [
+      "[]<>(area_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to office 4 until you pick pass 6 as you deliver pass 6 from house 5 to office 4",
+    "ltlequ": [
+      "!office_4Up_pass_6&&<>(house_5&&<>(p_pass_6&&<>(office_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep retrieving crate 8 from mall 5 and taking it to office 6 repeatedly",
+    "ltlequ": [
+      "[]<>(mall_5&&<>(p_crate_8&&<>(office_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you always stay in area 5",
+    "ltlequ": [
+      "[]area_5/"
+    ]
+  },
+  {
+    "nlTask": "Always avoid going to street 7 while transporting package 3 from store 9 to house 1",
+    "ltlequ": [
+      "[]!street_7&&<>(store_9&&<>(p_package_3&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Never go to street 3",
+    "ltlequ": [
+      "[]!street_3/"
+    ]
+  },
+  {
+    "nlTask": "Eventually Capture a photo of arch 4 but never go to park 2",
+    "ltlequ": [
+      "<>(arch_4&&photo)&&[]!park_2/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter parking lot 4 until you reach street 5 as you enter and stay in parking lot 4",
+    "ltlequ": [
+      "!parking_lot_4Ustreet_5&&<>(parking_lot_4&&[]parking_lot_4)/"
+    ]
+  },
+  {
+    "nlTask": "Continue staying in park 2 until you successfully photograph monument 13",
+    "ltlequ": [
+      "park_2U(monument_13&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Continue staying in street 6 until you successfully arrive at intersection 8",
+    "ltlequ": [
+      "street_6Uintersection_8/"
+    ]
+  },
+  {
+    "nlTask": "Pick up crate 4 and take it to park 1 and stay there",
+    "ltlequ": [
+      "<>(p_crate_4 && <>(park_1 &&pd&&[]park_1))/"
+    ]
+  },
+  {
+    "nlTask": "Go to store 3 to get package 2 and deliver it to house 2, ensuring you do not enter mall 1",
+    "ltlequ": [
+      "<>(store_3&&<>(p_package_2&&<>(house_2&&pd)))&&[]!mall_1/"
+    ]
+  },
+  {
+    "nlTask": "Avoid handling or picking up crate 8 indefinitely",
+    "ltlequ": [
+      "[]!p_crate_8/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from handling letter 8 at all times",
+    "ltlequ": [
+      "[]!p_letter_8/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you stay away from intersection 5 until street 4 is reached, while delivering pass 4 from house 4 to office 1",
+    "ltlequ": [
+      "!intersection_5Ustreet_4&&<>(house_4&&<>(p_pass_4&&<>(office_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from entering intersection 1 until you reach street 6, and then move cone 3 from street 2 to intersection 1",
+    "ltlequ": [
+      "!intersection_1Ustreet_6&&<>(street_2&&<>(p_cone_3&&<>(intersection_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Never pick up cones 1 or 2",
+    "ltlequ": [
+      "[]!(p_cone_1||p_cone_2)/"
+    ]
+  },
+  {
+    "nlTask": "Go to park 5",
+    "ltlequ": [
+      "<>park_5/"
+    ]
+  },
+  {
+    "nlTask": "Periodically visit charger 2 and repeatedly move plate 4 from table 2 to table 4",
+    "ltlequ": [
+      "[]<>charger_2&&[]<>(table_2&&<>(p_plate_4&&<>(table_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in area 3 at all times",
+    "ltlequ": [
+      "[]area_3/"
+    ]
+  },
+  {
+    "nlTask": "Repeatedly move crate 1 from storage 4 to office 2",
+    "ltlequ": [
+      "[]<>(storage_4&&<>(p_crate_1&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Deliver box 2 from office 4 to house 1",
+    "ltlequ": [
+      "<>(office_4&&<>(p_box_2&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from collecting box 3 under all circumstances",
+    "ltlequ": [
+      "[]!p_box_3/"
+    ]
+  },
+  {
+    "nlTask": "Pick up bottle 3 in kitchen 2 and ensure you never enter living room 1",
+    "ltlequ": [
+      "<>(kitchen_2&&p_bottle_3)&&[]!living_room_1/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from park 9 until you go to gate 7 and ensure you take a photograph",
+    "ltlequ": [
+      "!park_9U(gate_7&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve box 8 from house 3 and deliver it to office 2",
+    "ltlequ": [
+      "<>(house_3&&<>(p_box_8&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you continuously stay in locality 7 as you move letter 1 from office 4 to house 1",
+    "ltlequ": [
+      "[]locality_7&&<>(office_4&&<>(p_letter_1&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to parking lot 2 and pick up dish 2",
+    "ltlequ": [
+      "<>(parking_lot_2&&p_dish_2)/"
+    ]
+  },
+  {
+    "nlTask": "Persistently take pictures of area 9 while periodically delivering ordnance 3 from camp 4 to camp 9",
+    "ltlequ": [
+      "[]<>(area_9&&photo)&&[]<>(camp_4&&<>(p_ordnance_3&&<>(camp_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to kitchen 2 to grab bottle 3, staying away from living room 1",
+    "ltlequ": [
+      "<>(kitchen_2&&p_bottle_3)&&[]!living_room_1/"
+    ]
+  },
+  {
+    "nlTask": "Avoid office 4 until pick up pass 6, then you need to pick it up at house 5 and deliver it to office 4",
+    "ltlequ": [
+      "!office_4Up_pass_6&&<>(house_5&&<>(p_pass_6&&<>(office_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in area 5 at all times",
+    "ltlequ": [
+      "[]area_5/"
+    ]
+  },
+  {
+    "nlTask": "While never entering park 3, Pick up cone 2 from police station 1 and place it in intersection 2.",
+    "ltlequ": [
+      "[]!park_3&&<>(police_station_1&&p_cone_2&&<>(intersection_2&&pd))/"
+    ]
+  },
+  {
+    "nlTask": "Repeatedly photograph area 51 while ensuring you also return to charger 4 regularly",
+    "ltlequ": [
+      "[]<>(area_51&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Take box 5 to store 6 after picking it up from plant 8",
+    "ltlequ": [
+      "<>(plant_8&&<>(p_box_5&&<>(store_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you never go into house 4 at any time",
+    "ltlequ": [
+      "[]!house_4/"
+    ]
+  },
+  {
+    "nlTask": "Never pick up crate 8",
+    "ltlequ": [
+      "[]!p_crate_8/"
+    ]
+  },
+  {
+    "nlTask": "Eventually take a picture of monument 1, but avoid going to monument 1 until you have reached park 4",
+    "ltlequ": [
+      "<>(monument_1&&photo)&&!monument_1Upark_4/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you repeatedly return to intersection 4 while eventually reaching locality 9",
+    "ltlequ": [
+      "[]<>intersection_4&&<>locality_9/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to street 3 under any circumstances",
+    "ltlequ": [
+      "[]!street_3/"
+    ]
+  },
+  {
+    "nlTask": "Ensure that you never visit street 3",
+    "ltlequ": [
+      "[]!street_3/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking crate 6 to building 5 after picking it up from store 2",
+    "ltlequ": [
+      "[]<>(store_2&&<>(p_crate_6&&<>(building_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering park 3 while completing the task of taking a picture of monument 3",
+    "ltlequ": [
+      "[]!park_3&&<>(monument_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you never enter parking lot 5 while consistently capturing photos of car 9",
+    "ltlequ": [
+      "[]!parking_lot_5&&[]<>(car_9&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay in locality 9",
+    "ltlequ": [
+      "[]locality_9/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve bottle 2 from kitchen 1 and move to hall 2, staying there indefintely",
+    "ltlequ": [
+      "<>(kitchen_1&&<>(p_bottle_2&&<>(hall_2&&[]hall_2)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure that streets 3 and 4 are never entered at any time",
+    "ltlequ": [
+      "[]!(street_3||street_4)/"
+    ]
+  },
+  {
+    "nlTask": "Never go to park 5",
+    "ltlequ": [
+      "[]!park_5/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve takeout 2 from restaurant 9 and transport it to house 1",
+    "ltlequ": [
+      "<>(restaurant_9&&<>(takeout_2&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering parking lot 4 until you have reached building 8",
+    "ltlequ": [
+      "!parking_lot_4Ubuilding_8/"
+    ]
+  },
+  {
+    "nlTask": "Continue staying in parking lot 9 until you successfully photograph car 2",
+    "ltlequ": [
+      "parking_lot_9U(car_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to statue 6 and take a picture of it while you stay in park 5",
+    "ltlequ": [
+      "<>(statue_6&&photo)&&[]park_5/"
+    ]
+  },
+  {
+    "nlTask": "Stay in parking lot 4 until you reach car 5",
+    "ltlequ": [
+      "parking_lot_4Ucar_5/"
+    ]
+  },
+  {
+    "nlTask": "Keep retrieving crate 6 from store 2 and moving it to building 5",
+    "ltlequ": [
+      "[]<>(store_2&&<>(p_crate_6&&<>(building_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Never enter park 2",
+    "ltlequ": [
+      "[]!park_2/"
+    ]
+  },
+  {
+    "nlTask": "Take a photograph of building 2.",
+    "ltlequ": [
+      "<>(building_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from street 6 at all times and also take a picture of car 1",
+    "ltlequ": [
+      "[]!street_6&&<>(car_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to statue 5 and capture an image there",
+    "ltlequ": [
+      "<>(statue_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Eventually pick up box 2 from office 4 and deliver it to house 1",
+    "ltlequ": [
+      "<>(office_4&&<>(p_box_2&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Continuously avoid parking lot 5 while repeatedly taking pictures of car 9",
+    "ltlequ": [
+      "[]!parking_lot_5&&[]<>(car_9&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Continue staying in street 4 until you successfully photograph house 1",
+    "ltlequ": [
+      "street_4U(house_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Staying in street 8 forever",
+    "ltlequ": [
+      "[]street_8/"
+    ]
+  },
+  {
+    "nlTask": "Stay in park 4 until you successfully take a picture of statue 9",
+    "ltlequ": [
+      "park_4U(statue_9&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Do not go into park 5 before reaching intersection 5, and ensure to capture a picture of monument 3",
+    "ltlequ": [
+      "!park_5Uintersection_5&&<>(monument_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from visiting street 7 while delivering package 3 from store 9 to house 1",
+    "ltlequ": [
+      "[]!street_7&&<>(store_9&&<>(p_package_3&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Periodically visit car 3 while ensuring you eventually go to building 2",
+    "ltlequ": [
+      "[]<>car_3&&<>building_2/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting charger 4 while repeatedly taking pictures of area 5",
+    "ltlequ": [
+      "[]<>charger_4&&[]<>(area_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Never touch letter 8",
+    "ltlequ": [
+      "[]!p_letter_8/"
+    ]
+  },
+  {
+    "nlTask": "Continuously take pictures of street 3",
+    "ltlequ": [
+      "[]<>(street_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Do not pick up box 3 at any time",
+    "ltlequ": [
+      "[]!p_box_3/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter street 5 until you reach store 1 as you pick up package 4 from store 1",
+    "ltlequ": [
+      "!street_5Ustore_1&&<>(store_1&&p_package_4)/"
+    ]
+  },
+  {
+    "nlTask": "Stay in locality 6 until you take package 3 from store 8 to house 5",
+    "ltlequ": [
+      "locality_6U(store_8&&<>(p_package_3&&<>(house_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting charger 6 as you keep picking up brochure 4 from table 4",
+    "ltlequ": [
+      "[]<>charger_6&&[]<>(table_4&&p_brochure_4)/"
+    ]
+  },
+  {
+    "nlTask": "Go to intersection 5 and never leave",
+    "ltlequ": [
+      "<>[]intersection_5/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from entering building 8 unless you have already reached parking lot 8",
+    "ltlequ": [
+      "!building_8Uparking_lot_8/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from visiting building 9 at all times",
+    "ltlequ": [
+      "[]!building_9/"
+    ]
+  },
+  {
+    "nlTask": "Stay within park 1 until table 3 is reached",
+    "ltlequ": [
+      "park_1Utable_3/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from handling package 5 at all times",
+    "ltlequ": [
+      "[]!p_package_5/"
+    ]
+  },
+  {
+    "nlTask": "Repeatedly capture photos of monument 8, but refrain from entering monument 8 until you get to park 4",
+    "ltlequ": [
+      "[]<>(monument_8&&photo)&&!monument_8Upark_4/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from park 4 until you reach street 3, and afterward, deliver takeout 2 from store 7 to bench 3",
+    "ltlequ": [
+      "!park_4Ustreet_3&&<>(store_7&&<>(p_takeout_2&&<>(bench_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep returning to house 2 to collect trash can 4",
+    "ltlequ": [
+      "[]<>(house_2&&p_trash_can_4)/"
+    ]
+  },
+  {
+    "nlTask": "Go to street 5 and then go to house 4",
+    "ltlequ": [
+      "<>(street_5&&<>house_4)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure box 8 is picked up from store 5 and delivered to house 1",
+    "ltlequ": [
+      "<>(store_5&&<>(p_box_8&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Pick up trash 4 from house 4 and deliver it to garbage dump 1",
+    "ltlequ": [
+      "<>(house_4&&<>(p_trash_4&&<>(garbage_dump_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you never pick up crate 8 at any time",
+    "ltlequ": [
+      "[]!p_crate_8/"
+    ]
+  },
+  {
+    "nlTask": "Avoid visiting store 4 before reaching street 6, as you take package 8 from office 2 to store 4",
+    "ltlequ": [
+      "!store_4Ustreet_6&&<>(office_2&&<>(p_package_8&&<>(store_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not go into park 5 before reaching intersection 5, and ensure you capture a photo of monument 3",
+    "ltlequ": [
+      "!park_5Uintersection_5&&<>(monument_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you remain in county 4 and keep transferring package 4 from office 3 to office 8",
+    "ltlequ": [
+      "[]county_4&&[]<>(office_3&&<>(p_package_4&&<>(office_8&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Persistently return to charger 4 as you keep taking photo of area 5",
+    "ltlequ": [
+      "[]<>charger_4&&[]<>(area_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up brochure 3 from table 9 and deliver it to park 2",
+    "ltlequ": [
+      "<>(table_9&&<>(p_brochure_3&&<>(park_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you avoid park 3 while capturing a picture of monument 3",
+    "ltlequ": [
+      "[]!park_3&&<>(monument_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from visiting parking lot 5 while photographing car 3",
+    "ltlequ": [
+      "[]!parking_lot_5&&<>(car_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Reach intersection 5 and remain there indefinitely",
+    "ltlequ": [
+      "<>[]intersection_5/"
+    ]
+  },
+  {
+    "nlTask": "Keep picking up trash can 4 from house 2",
+    "ltlequ": [
+      "[]<>(house_2&&p_trash_can_4)/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve brochure 3 from table 9 and transport it to park 2",
+    "ltlequ": [
+      "<>(table_9&&<>(p_brochure_3&&<>(park_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not ever go to house 3",
+    "ltlequ": [
+      "[]!house_3/"
+    ]
+  },
+  {
+    "nlTask": "Persistently take pictures of area 51 while maintaining regular visits to charger 4",
+    "ltlequ": [
+      "[]<>(area_51&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Remove traffic cone 5 from street 4 and place it in intersection 6",
+    "ltlequ": [
+      "<>(street_4&&<>(p_traffic_cone_5&&<>(intersection_6&&pd)))/",
+      "<>(street_4&&<>(p_traffic_cone_5&&<>(intersection_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Continuously visit charger 6 while repeatedly picking up brochure 4 from table 4",
+    "ltlequ": [
+      "[]<>charger_6&&[]<>(table_4&&p_brochure_4)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you never enter building 9",
+    "ltlequ": [
+      "[]!building_9/"
+    ]
+  },
+  {
+    "nlTask": "Go to building 2 and take a picture of it.",
+    "ltlequ": [
+      "<>(building_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Revisit charging station 5 periodically while repeatedly delivering package 5 from warehouse 1 to store 5",
+    "ltlequ": [
+      "[]<>charging_station_5&&[]<>(warehouse_1&&<>(p_package_5&&<>(store_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you collect package 4 from store 2 and then put it in house 4",
+    "ltlequ": [
+      "<>(store_2&&<>(p_package_4&&<>(house_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you eventually go to section 3 while avoiding hall 5 at all times",
+    "ltlequ": [
+      "<>section_3&&[]!hall_5/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve letter 2 from post office 1 and deliver it to building 3",
+    "ltlequ": [
+      "<>(post_office_1&&<>(p_lettter_2&&<>(building_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep returing to charging station 5 as you repeatedly transport package 5 from warehouse 1 to store 5",
+    "ltlequ": [
+      "[]<>charger_5&&[]<>(warehouse_1&&<>(p_package_5&&<>(store_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking a picture of statue 4 and also keep visiting charger 4",
+    "ltlequ": [
+      "[]<>(statue_4&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Pick up stack 4 from house 4 and go to street 2 and stay there",
+    "ltlequ": [
+      "<>(house_4&&<>(p_stack_4&&<>(street_2&&[]street_2)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you always stay within locality 9",
+    "ltlequ": [
+      "[]locality_9/"
+    ]
+  },
+  {
+    "nlTask": "Stay out of street 4 until you get to intersection 2 and retrieve trash 13 from house 13",
+    "ltlequ": [
+      "!street_4Uintersection_2&&<>(house_13&&p_trash_13)/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from street 4 until you reach intersection 2 as you go to house 13 and pick up trash 13",
+    "ltlequ": [
+      "!street_4Uintersection_2&&<>(house_13&&p_trash_13)/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to intersection 5 until you reach street 4 while delivering pass 4 from house 4 to office 1",
+    "ltlequ": [
+      "!intersection_5Ustreet_4&&<>(house_4&&<>(p_pass_4&&<>(office_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not exit area 3 at any point",
+    "ltlequ": [
+      "[]area_3/"
+    ]
+  },
+  {
+    "nlTask": "Visit hospital 3 to pick up water bottle 4, but avoid pharmacy 2",
+    "ltlequ": [
+      "<>(hospital_3&&p_bottle_4)&&[]!pharmacy_2/"
+    ]
+  },
+  {
+    "nlTask": "Collect box 8 from house 3 and transport it to office 2",
+    "ltlequ": [
+      "<>(house_3&&<>(p_box_8&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Visit street 5 while ensuring you never enter parking lot 2",
+    "ltlequ": [
+      "<>street_5&&[]!parking_lot_2/"
+    ]
+  },
+  {
+    "nlTask": "Always stay away from parking lot 5 while persistently taking pictures of car 9",
+    "ltlequ": [
+      "[]!parking_lot_5&&[]<>(car_9&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Never approach building 2 while ensuring you retrieve letter 5 from office 6",
+    "ltlequ": [
+      "[]!building_2&&<>(office_6&&p_letter_5)/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve brochure 5 from table 2 and subsequently put it to street 5",
+    "ltlequ": [
+      "<>(table_2&&<>(p_brochure_5&&<>(street_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Take trash 4 from house 4 to garbage dump 1",
+    "ltlequ": [
+      "<>(house_4&&<>(p_trash_4&&<>(garbage_dump_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid intersection 4 until you arrive at street 5",
+    "ltlequ": [
+      "!intersection_4Ustreet_5/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve cone 5 from parking lot 2 and place it in street 1",
+    "ltlequ": [
+      "<>(parking_lot_2&&<>(p_cone_5&&<>(street_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to bedroom 2 to grab bottle 3 and put it down in kitchen 4",
+    "ltlequ": [
+      "<>(bedroom_2&&<>(p_bottle_3&&<>(kitchen_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you repeatedly pick up trash can 4 from house 2",
+    "ltlequ": [
+      "[]<>(house_2&&p_trash_can_4)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you persistently take pictures of car 1 while refraining from visiting parking lot 9 at all times",
+    "ltlequ": [
+      "[]<>(car_1&&photo)&&[]!parking_lot_9/"
+    ]
+  },
+  {
+    "nlTask": "Continuously transport box 2 from store 4 to hall 8",
+    "ltlequ": [
+      "[]<>(store_4&&<>(p_box_2&&<>(hall_8&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to street 5 and then make your way to house 4",
+    "ltlequ": [
+      "<>(street_5&&<>house_4)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up takeout 2 from restaurant 9 and deliver it to house 1",
+    "ltlequ": [
+      "<>(restaurant_9&&<>(takeout_2&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you keep taking pictures of monument 8 while avoiding going to monument 8 until you have reached park 4",
+    "ltlequ": [
+      "[]<>(monument_8&&photo)&&!monument_8Upark_4/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to room 2 before retrieving bottle 4 from kitchen 1 and putting it on table 4",
+    "ltlequ": [
+      "!room_2U(kitchen_1&&<>(p_bottle_4&&<>(table_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Reach park 8 and remain there indefinitely",
+    "ltlequ": [
+      "<>[]park_8/"
+    ]
+  },
+  {
+    "nlTask": "Remove cone 5 from parking lot 2 and place it in street 1",
+    "ltlequ": [
+      "<>(parking_lot_2&&<>(p_cone_5&&<>(street_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you always stay within parking lot 9",
+    "ltlequ": [
+      "[]parking_lot_9/"
+    ]
+  },
+  {
+    "nlTask": "Always refrain from entering building 2 as you collect letter 5 from office 6",
+    "ltlequ": [
+      "[]!building_2&&<>(office_6&&p_letter_5)/"
+    ]
+  },
+  {
+    "nlTask": "Repeatedly take crate 6 from store 2 and deliver it to building 5",
+    "ltlequ": [
+      "[]<>(store_2&&<>(p_crate_6&&<>(building_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in street 4 until you take a picture of house 1",
+    "ltlequ": [
+      "street_4U(house_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Keep returing to charger 2 while transporting plate 4 from table 2 to table 4",
+    "ltlequ": [
+      "[]<>charger_2&&<>(table_2&&<>(p_plate_4&&<>(table_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Continuously photographing car 1, ensuring you never go to parking lot 9",
+    "ltlequ": [
+      "[]<>(car_1&&photo)&&[]!parking_lot_9/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from entering park 9 until you reach gate 7 and take a picture there",
+    "ltlequ": [
+      "!park_9U(gate_7&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture  of intersection 7 and stay there",
+    "ltlequ": [
+      "<>(intersection_7&&photo&&[]intersection_7)/"
+    ]
+  },
+  {
+    "nlTask": "While avoiding living room 1, retrieve bottle 3 from kitchen 2",
+    "ltlequ": [
+      "[]!living_room_1&&<>(kitchen_2&&p_bottle_3)/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from visiting house 1 at all times",
+    "ltlequ": [
+      "[]!house_1/"
+    ]
+  },
+  {
+    "nlTask": "Stay confined to county 4 as you repeatedly deliver package 4 from office 3 to office 8",
+    "ltlequ": [
+      "[]county_4&&[]<>(office_3&&<>(p_package_4&&<>(office_8&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Reach garage 4 before going to building 3 and stay there indefinitely",
+    "ltlequ": [
+      "<>(garage_4&&<>(building_3&&[]building_3))/"
+    ]
+  },
+  {
+    "nlTask": "Continuously being in locality 9",
+    "ltlequ": [
+      "[]locality_9/"
+    ]
+  },
+  {
+    "nlTask": "Visit street 5 and afterward go to building 2 and remain there indefinitely",
+    "ltlequ": [
+      "<>(street_5&&<>(building_2&&[]building_2))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in parking lot 9",
+    "ltlequ": [
+      "[]parking_lot_9/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you go to park 7 and then capture a photo of monument 4",
+    "ltlequ": [
+      "<>(park_7&&<>(monument_4&&photo))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure that box 2 is collected from office 4 and eventually delivered to house 1",
+    "ltlequ": [
+      "<>(office_4&&<>(p_box_2&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to table 8, take brochure 2 and deliver it to table 1",
+    "ltlequ": [
+      "<>(table_8&&<>(p_brochure_2&&<>(table_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay out of house 3 indefinitely",
+    "ltlequ": [
+      "[]!house_3/"
+    ]
+  },
+  {
+    "nlTask": "Repeatedly take pictures of building 5 while also continuously returning to charger 4",
+    "ltlequ": [
+      "[]<>(building_5&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Take brochure 3 from table 9 and move it to park 2",
+    "ltlequ": [
+      "<>(table_9&&<>(p_brochure_3&&<>(park_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Repeatedly photograph locality 7 while staying away from park 3 entirely",
+    "ltlequ": [
+      "[]<>(locality_7&&photo)&&[]!park_3/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of statue 2 but do not go to statue 2 until you reach park 5",
+    "ltlequ": [
+      "<>(statue_2&&photo)&&!statue_2Upark_5/"
+    ]
+  },
+  {
+    "nlTask": "Persistently stay in area 2 while regularly going to building 8 to photograph it",
+    "ltlequ": [
+      "[]area_2&&[]<>(building_8&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up cone 5 from parking lot 2 and deliver it to street 1",
+    "ltlequ": [
+      "<>(parking_lot_2&&<>(p_cone_5&&<>(street_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in parking lot 9 until a picture of car 2 was taken",
+    "ltlequ": [
+      "parking_lot_9U(car_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Remain in park 2 until you take a picture of monument 13",
+    "ltlequ": [
+      "park_2U(monument_13&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking a picture of area 4 and also take a picture of area 3 periodically",
+    "ltlequ": [
+      "[]<>(area_4&&photo)&&[]<>(area_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting area 5",
+    "ltlequ": [
+      "[]<>area_5/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting charger 1 as you take box 4 from house 4 to house 9",
+    "ltlequ": [
+      "[]<>charger_1&&<>(house_4&&<>(box_4&&<>(house_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve document 1 from office 3 and deliver it to street 2",
+    "ltlequ": [
+      "<>(office_3&&<>(p_document_1&&<>(street_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep capturing photos of area 9 while you also periodically taking ordnance 3 from camp 4 to camp 9",
+    "ltlequ": [
+      "[]<>(area_9&&photo)&&[]<>(camp_4&&<>(p_ordnance_3&&<>(camp_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter office 4 until you pick pass 6 as you move pass 6 from house 5 to office 4",
+    "ltlequ": [
+      "!office_4Up_pass_6&&<>(house_5&&<>(p_pass_6&&<>(office_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to locality 5 before collecting pass 5 from house 2 and delivering it to office 3",
+    "ltlequ": [
+      "!locality_5U(house_2&&<>(p_pass_5&&<>(office_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Never ever pick up bottle 2 from house 4",
+    "ltlequ": [
+      "[]!(house_4&&p_bottle_2)/"
+    ]
+  },
+  {
+    "nlTask": "Put down what you have and go to park 4 and stay there",
+    "ltlequ": [
+      "<>(pd&&<>(park_4&&[]park_4))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in parking lot 4 until you capture a picture of car 5.",
+    "ltlequ": [
+      "parking_lot_4U(car_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you avoid entering parking lot 5 while taking a picture of car 3",
+    "ltlequ": [
+      "[]!parking_lot_5&&<>(car_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay in building 4 until you take folder 3 from room 43 to room 12",
+    "ltlequ": [
+      "building_4U(room_43&&<>(p_folder_3&&<>(room_12&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "go to house 1, pick up trash can 4, and take it ot garbage dump 3",
+    "ltlequ": [
+      "<>(house_1&&<>(p_trash_can_4&&<>(garbage_dump_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Never enter house 4",
+    "ltlequ": [
+      "[]!house_4/"
+    ]
+  },
+  {
+    "nlTask": "Remain in parking lot 9 at all times",
+    "ltlequ": [
+      "[]parking_lot_9/"
+    ]
+  },
+  {
+    "nlTask": "Eventually you need to go to monument 1 to take a picture, but do not visit monument 1 until you arrive at park 4",
+    "ltlequ": [
+      "<>(monument_1&&photo)&&!monument_1Upark_4/"
+    ]
+  },
+  {
+    "nlTask": "Pick up bottle 3 from kitchen 2 but do not enter living room 1",
+    "ltlequ": [
+      "<>(kitchen_2&&p_bottle_3)&&[]!living_room_1/"
+    ]
+  },
+  {
+    "nlTask": "Grab brochure 9 from table 2 and go to park 4 and stay there",
+    "ltlequ": [
+      "<>(table_2&&<>(p_brochure_9&&<>(park_4&&[]park_4)))/"
+    ]
+  },
+  {
+    "nlTask": "Eventually (Photograph monument 12 and continue staying at that location)",
+    "ltlequ": [
+      "<>(monument_12&&photo&&[]monument_12)/"
+    ]
+  },
+  {
+    "nlTask": "Make sure to reach street 2 and remain there continuously",
+    "ltlequ": [
+      "<>[]street_2/"
+    ]
+  },
+  {
+    "nlTask": "Go to store 1, grab bottle 3, and move it to hospital 2.",
+    "ltlequ": [
+      "<>(shop_1&&<>(p_bottle_3&&<>(hospital_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to building 1 until you arrive at street 4.",
+    "ltlequ": [
+      "!building_1Ustreet_4/"
+    ]
+  },
+  {
+    "nlTask": "Pick up bottle 3 from bedroom 2 and deliver it to kitchen 4",
+    "ltlequ": [
+      "<>(bedroom_2&&<>(p_bottle_3&&<>(kitchen_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you keep taking crate 1 from storage 4 to office 2 repeatedly",
+    "ltlequ": [
+      "[]<>(storage_4&&<>(p_crate_1&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking a picture of street 3",
+    "ltlequ": [
+      "[]<>(street_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to garage 1 until you take a picture as you take a picture of landmark 5",
+    "ltlequ": [
+      "!garage_1Uphoto&&<>(landmark_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to statue 7 and take a picture",
+    "ltlequ": [
+      "<>(statue_7&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering room 2 until you take bottle 4 from kitchen 1 and place it on table 4",
+    "ltlequ": [
+      "!room_2U(kitchen_1&&<>(p_bottle_4&&<>(table_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you stay in street 5 at all times while repeatedly capturing photos of parking lot 4",
+    "ltlequ": [
+      "[]street_5&&[]<>(parking_lot_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up cone 2 from police station 1 and place it in intersection 2 without ever going to park 3.",
+    "ltlequ": [
+      "<>(police_station_1&&<>(p_cone_2&&<>(intersection_2&&pd)))&&[]!park_3/"
+    ]
+  },
+  {
+    "nlTask": "Put package 4 in house 4 after you get it from store 2",
+    "ltlequ": [
+      "<>(store_2&&<>(p_package_4&&<>(house_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to section 3, but avoid entering hall 5",
+    "ltlequ": [
+      "<>section_3&&[]!hall_5/"
+    ]
+  },
+  {
+    "nlTask": "Deliver box 8 from store 5 to house 1",
+    "ltlequ": [
+      "<>(store_5&&<>(p_box_8&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to parking lot 3 and stay there",
+    "ltlequ": [
+      "<>[]parking_lot_3/"
+    ]
+  },
+  {
+    "nlTask": "Go to house 5 and remain there indefinitely",
+    "ltlequ": [
+      "<>[]house_5/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve box 8 at store 5 and transport it to house 1",
+    "ltlequ": [
+      "<>(store_5&&<>(p_box_8&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in parking lot 5 until you capture a photo of car 5",
+    "ltlequ": [
+      "parking_lot_5U(car_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering street 4 until you reach intersection 2 while going to house 13 to pick up trash 13",
+    "ltlequ": [
+      "!street_4Uintersection_2&&<>(house_13&&p_trash_13)/"
+    ]
+  },
+  {
+    "nlTask": "Remain in locality 9 at all times",
+    "ltlequ": [
+      "[]locality_9/"
+    ]
+  },
+  {
+    "nlTask": "Avoid parking lot 5 as you keep taking pictures of car 9",
+    "ltlequ": [
+      "[]!parking_lot_5&&[]<>(car_9&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you never pick up either cone 1 or cone 2",
+    "ltlequ": [
+      "[]!(p_cone_1||p_cone_2)/"
+    ]
+  },
+  {
+    "nlTask": "Go to table 4 and stay there",
+    "ltlequ": [
+      "<>[]table_4/"
+    ]
+  },
+  {
+    "nlTask": "Stay out of garage 1 until you take a picture as part of photographing landmark 5",
+    "ltlequ": [
+      "!garage_1Uphoto&&<>(landmark_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to post office 1, collect letter 3, and bring it to house 2",
+    "ltlequ": [
+      "<>(post_office_1&&<>(p_letter_3&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from ever picking up crate 8",
+    "ltlequ": [
+      "[]!p_crate_8/"
+    ]
+  },
+  {
+    "nlTask": "Pick up brochure 5 from table 2 and deliver it to street 5",
+    "ltlequ": [
+      "<>(table_2&&<>(p_brochure_5&&<>(street_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Pick up tin can 4 from table 4 and put it in trash can 5 without entering hallway 2",
+    "ltlequ": [
+      "<>(table_4&&<>(p_tin_can_4&&<>(trash_can_5&&pd)))&&[]!hallway_2/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking brochure 8 from table 2 to street 9 and also keep visiting charger 6",
+    "ltlequ": [
+      "[]<>(table_2&&<>(p_brochure_8&&<>(street_9&&pd)))&&[]<>charger_6/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to park 5 at any time",
+    "ltlequ": [
+      "[]!park_5/"
+    ]
+  },
+  {
+    "nlTask": "Eventually, go to bench 4, take a picture of it, and remain there",
+    "ltlequ": [
+      "<>(bench_4&&photo&&[]bench_4)/"
+    ]
+  },
+  {
+    "nlTask": "Find your way to park 8 and stay there permanently",
+    "ltlequ": [
+      "<>[]park_8/"
+    ]
+  },
+  {
+    "nlTask": "Continuously visit parking lot 4 while delivering document 4 from car 5 to car 6",
+    "ltlequ": [
+      "[]<>parking_lot_4&&<>(car_5&&<>(p_document_4&&<>(car_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Visit parking lot 2 and grab dish 2",
+    "ltlequ": [
+      "<>(parking_lot_2&&p_dish_2)/"
+    ]
+  },
+  {
+    "nlTask": "Stay within locality 2 as you pick up document 5 from office 4 and deliver it to office 9",
+    "ltlequ": [
+      "[]locality_2&&<>(office_4&&<>(p_document_5&&<>(office_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Deliver takeout 2 from restaurant 9 to house 1",
+    "ltlequ": [
+      "<>(restaurant_9&&<>(takeout_2&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Persistently taking crate 6 to building 5 after picking it up from store 2",
+    "ltlequ": [
+      "[]<>(store_2&&<>(p_crate_6&&<>(building_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Capture an image of building 2.",
+    "ltlequ": [
+      "<>(building_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Avoid visiting landmark 5 until you reach park 5, and eventually take a photo of landmark 5",
+    "ltlequ": [
+      "!landmark_5Upark_5&&<>(landmark_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you continuously take pictures of statue 4 while regularly visiting charger 4",
+    "ltlequ": [
+      "[]<>(statue_4&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to room 2 until you take bottle 4 from kitchen 1, and then put it on table 4",
+    "ltlequ": [
+      "!room_2U(kitchen_1&&<>(p_bottle_4&&<>(table_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Continue staying in locality 2 as you collect document 5 from office 4 and take it to office 9",
+    "ltlequ": [
+      "[]locality_2&&<>(office_4&&<>(p_document_5&&<>(office_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you collect brochure 5 from table 2 and place it in street 5",
+    "ltlequ": [
+      "<>(table_2&&<>(p_brochure_5&&<>(street_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Always avoid going to building 2 while ensuring you pick up letter 5 from office 6",
+    "ltlequ": [
+      "[]!building_2&&<>(office_6&&p_letter_5)/"
+    ]
+  },
+  {
+    "nlTask": "Continuously take pictures of locality 7 while ensuring you never visit park 3",
+    "ltlequ": [
+      "[]<>(locality_7&&photo)&&[]!park_3/"
+    ]
+  },
+  {
+    "nlTask": "Never pass through parking lot 8 on your way to street 5",
+    "ltlequ": [
+      "[]!parking_lot_8&&<>street_5/"
+    ]
+  },
+  {
+    "nlTask": "Keep taking crate 8 from warehouse 4 to store 8 and also keep visiting charger 2",
+    "ltlequ": [
+      "[]<>(warehouse_4&&<>(p_crate_8&&<>(store_8&&pd)))&&[]<>charger_2/"
+    ]
+  },
+  {
+    "nlTask": "Continuously go to house 2 and pick up trash can 4",
+    "ltlequ": [
+      "[]<>(house_2&&p_trash_can_4)/"
+    ]
+  },
+  {
+    "nlTask": "Stay within county 4 while repeatedly taking package 4 from office 3 to office 8",
+    "ltlequ": [
+      "[]county_4&&[]<>(office_3&&<>(p_package_4&&<>(office_8&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Never go to building 9",
+    "ltlequ": [
+      "[]!building_9/"
+    ]
+  },
+  {
+    "nlTask": "Always avoid picking up box 3",
+    "ltlequ": [
+      "[]!p_box_3/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from entering locality 5 until you collect pass 5 from house 2 and deposit it in office 3",
+    "ltlequ": [
+      "!locality_5U(house_2&&<>(p_pass_5&&<>(office_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve bottle 3 from bedroom 2 and place it in kitchen 4",
+    "ltlequ": [
+      "<>(bedroom_2&&<>(p_bottle_3&&<>(kitchen_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Continuously take pictures of monument 8, but avoid going to monument 8 until you arrive at park 4",
+    "ltlequ": [
+      "[]<>(monument_8&&photo)&&!monument_8Upark_4/"
+    ]
+  },
+  {
+    "nlTask": "Never go to street 5 as you pick up box 4 from house 2",
+    "ltlequ": [
+      "[]!street_5&&<>(house_2&&p_box_4)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you take a picture of intersection 4 repeatedly over time",
+    "ltlequ": [
+      "[]<>(intersection_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to table 8, pick up brochure 2, and deliver it to table 1",
+    "ltlequ": [
+      "<>(table_8&&<>(p_brochure_2&&<>(table_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to house 4 and pick up package 2 and take it to warehouse 5",
+    "ltlequ": [
+      "<>(house_4&&<>(p_package_2&&<>(warehouse_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering room 4 until you have reached building 4",
+    "ltlequ": [
+      "!room_4Ubuilding_4/"
+    ]
+  },
+  {
+    "nlTask": "Never go to hall 1 to pick up file 6",
+    "ltlequ": [
+      "[]!(hall_1&&p_file_6)/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of statue 6 after reaching it, and make sure you stay within park 5",
+    "ltlequ": [
+      "<>(statue_6&&photo)&&[]park_5/"
+    ]
+  },
+  {
+    "nlTask": "Remain in parking lot 4 until you take a picture of car 5",
+    "ltlequ": [
+      "parking_lot_4U(car_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Eventually you should take a picture of arch 4 while never entering park 2",
+    "ltlequ": [
+      "<>(arch_4&&photo)&&[]!park_2/"
+    ]
+  },
+  {
+    "nlTask": "Pick up box 5 from plant 8 and deliver it to store 6",
+    "ltlequ": [
+      "<>(plant_8&&<>(p_box_5&&<>(store_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure that you always stay within area 3",
+    "ltlequ": [
+      "[]area_3/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you do not enter street 7 as you move package 3 from store 9 to house 1",
+    "ltlequ": [
+      "[]!street_7&&<>(store_9&&<>(p_package_3&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to streets 3 and 4 indefinitely",
+    "ltlequ": [
+      "[]!(street_3||street_4)/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from visiting intersection 4 until you have reached street 5",
+    "ltlequ": [
+      "!intersection_4Ustreet_5/"
+    ]
+  },
+  {
+    "nlTask": "Avoid picking up cone 2 until you have reached intersection 4",
+    "ltlequ": [
+      "!p_cone_2Uintersection_4/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to park 9 before arriving at gate 7 and capturing a photo",
+    "ltlequ": [
+      "!park_9U(gate_7&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from park 2 permanently",
+    "ltlequ": [
+      "[]!park_2/"
+    ]
+  },
+  {
+    "nlTask": "Keep going to area 2 and taking a picture",
+    "ltlequ": [
+      "[]<>(area_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure letter 4 is picked up from office 5 and delivered to house 2",
+    "ltlequ": [
+      "<>(office_5&&<>(p_letter_4&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Persistently taking a picture of area 4 and also take a photo of area 3 constantly",
+    "ltlequ": [
+      "[]<>(area_4&&photo)&&[]<>(area_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Do not visit room 4 until building 4 is reached",
+    "ltlequ": [
+      "!room_4Ubuilding_4/"
+    ]
+  },
+  {
+    "nlTask": "Stay in street 8",
+    "ltlequ": [
+      "[]street_8/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter locality 5 until you pick up pass 5 from house 2 and put it in office 3",
+    "ltlequ": [
+      "!locality_5U(house_2&&<>(p_pass_5&&<>(office_3&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Never leave area 5",
+    "ltlequ": [
+      "[]area_5/"
+    ]
+  },
+  {
+    "nlTask": "Pick up letter 3 from post office 1 and deliver it to house 2",
+    "ltlequ": [
+      "<>(post_office_1&&<>(p_letter_3&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Never going to parking lot 5 as you keep photographing car 9",
+    "ltlequ": [
+      "[]!parking_lot_5&&[]<>(car_9&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering street 3 while ensuring you reach building 4",
+    "ltlequ": [
+      "[]!street_3&&<>building_4/"
+    ]
+  },
+  {
+    "nlTask": "Take brochure 9 from table 2, head to park 4, and stay there indefinitely",
+    "ltlequ": [
+      "<>(table_2&&<>(p_brochure_9&&<>(park_4&&[]park_4)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in building 2 until you arrive at path 3",
+    "ltlequ": [
+      "building_2Upath_3/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering intersection 1 until you reach street 6, and then transport cone 3 from street 2 to intersection 1",
+    "ltlequ": [
+      "!intersection_1Ustreet_6&&<>(street_2&&<>(p_cone_3&&<>(intersection_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in locality 2 as you take document 5 from office 4 to office 9",
+    "ltlequ": [
+      "[]locality_2&&<>(office_4&&<>(p_document_5&&<>(office_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting intersection 4 as you go to locality 9",
+    "ltlequ": [
+      "[]<>intersection_4&&<>locality_9/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you keep capturing photos of building 5 while regularly revisiting charger 4",
+    "ltlequ": [
+      "[]<>(building_5&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Revisit street 5 periodically",
+    "ltlequ": [
+      "[]<>street_5/"
+    ]
+  },
+  {
+    "nlTask": "Stay within building 9 until you collect bottle 3 from room 2 and take it to room 6",
+    "ltlequ": [
+      "building_9U(room_2&&<>(p_bottle_3&&<>(room_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Repeatedly take box 2 from store 4 and deliver it to hall 8",
+    "ltlequ": [
+      "[]<>(store_4&&<>(p_box_2&&<>(hall_8&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not visit house 4 under any circumstances",
+    "ltlequ": [
+      "[]!house_4/"
+    ]
+  },
+  {
+    "nlTask": "stay in park 4 until you take the picture of statue 9",
+    "ltlequ": [
+      "park_4U(statue_9&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Keep revisiting area 2 and capturing a photo",
+    "ltlequ": [
+      "[]<>(area_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay at park 2 until taking a picture of monument 13",
+    "ltlequ": [
+      "park_2U(monument_13&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay in building 9 until you take bottle 3 from room 2 to room 6",
+    "ltlequ": [
+      "building_9U(room_2&&<>(p_bottle_3&&<>(room_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Do not pick up cone 1 or cone 2 at any time",
+    "ltlequ": [
+      "[]!(p_cone_1||p_cone_2)/"
+    ]
+  },
+  {
+    "nlTask": "Go to parking lot 2 to pick up cone 5 and put it down in street 1",
+    "ltlequ": [
+      "<>(parking_lot_2&&<>(p_cone_5&&<>(street_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Pick up stack 4 from house 4, proceed to street 2, and remain there",
+    "ltlequ": [
+      "<>(house_4&&<>(p_stack_4&&<>(street_2&&[]street_2)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep capturing photos of statue 4 and also keep returning to charger 4",
+    "ltlequ": [
+      "[]<>(statue_4&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Do not enter building 8 until you reach parking lot 8",
+    "ltlequ": [
+      "!building_8Uparking_lot_8/"
+    ]
+  },
+  {
+    "nlTask": "Go to park 7 and take a picture of monument 4",
+    "ltlequ": [
+      "<>(park_7&&<>(monument_4&&photo))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in park 1 until you arrive at table 3",
+    "ltlequ": [
+      "park_1Utable_3/"
+    ]
+  },
+  {
+    "nlTask": "Persistently transfer box 2 from store 4 to hall 8",
+    "ltlequ": [
+      "[]<>(store_4&&<>(p_box_2&&<>(hall_8&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Pick up luggage 2 and take it to room 402",
+    "ltlequ": [
+      "<>(p_luggage_2&&<>(room_402&&pd))/"
+    ]
+  },
+  {
+    "nlTask": "Go to mall 5, pick up box 4 and take it to house 1",
+    "ltlequ": [
+      "<>(mall_5&&<>(p_box_4&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you reach house 5 and stay there permanently",
+    "ltlequ": [
+      "<>[]house_5/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering house 4 indefinitely",
+    "ltlequ": [
+      "[]!house_4/"
+    ]
+  },
+  {
+    "nlTask": "Reach landmark 9, capture an image, and remain there forever",
+    "ltlequ": [
+      "<>(landmark_9&&photo&&[]landmark_9)/"
+    ]
+  },
+  {
+    "nlTask": "Keep returning to take a photo of landmark 21 periodically",
+    "ltlequ": [
+      "[]<>(landmark_21&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up box 8 from store 5 and deliver it to house 1",
+    "ltlequ": [
+      "<>(store_5&&<>(p_box_8&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Remain in building 9 until you pick up bottle 3 from room 2 and deliver it to room 6",
+    "ltlequ": [
+      "building_9U(room_2&&<>(p_bottle_3&&<>(room_6&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to intersection 8 until you reach street 3, and then proceed to locality 5",
+    "ltlequ": [
+      "!intersection_8Ustreet_3&&<>locality_5/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of statue 6 and then go to bench 4 and stay there",
+    "ltlequ": [
+      "<>(statue_6&&photo&&<>(bench_4&&[]bench_4))/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of arch 2 and then go to park 8 and stay there",
+    "ltlequ": [
+      "<>(arch_2&&photo&&<>(park_8&&[]park_8))/"
+    ]
+  },
+  {
+    "nlTask": "Start by obtaining box 2 from office 4 and make sure it is delivered to house 1 afterward",
+    "ltlequ": [
+      "<>(office_4&&<>(p_box_2&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve package 2 from store 3, deliver it to house 2, and never go into mall 1",
+    "ltlequ": [
+      "<>(store_3&&<>(p_package_2&&<>(house_2&&pd)))&&[]!mall_1/"
+    ]
+  },
+  {
+    "nlTask": "Stay within street 4 until you capture a photo of house 1",
+    "ltlequ": [
+      "street_4U(house_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Get brochure 9 from table 2 and go to park 4 and stay there",
+    "ltlequ": [
+      "<>(table_2&&<>(p_brochure_9&&<>(park_4&&[]park_4)))/"
+    ]
+  },
+  {
+    "nlTask": "Eventually(Reach bench 4, take a photograph, and continue staying there)",
+    "ltlequ": [
+      "<>(bench_4&&photo&&[]bench_4)/"
+    ]
+  },
+  {
+    "nlTask": "Continuously return to street 5 over time.",
+    "ltlequ": [
+      "[]<>street_5/"
+    ]
+  },
+  {
+    "nlTask": "Continuously stay in parking lot 9 without leaving",
+    "ltlequ": [
+      "[]parking_lot_9/"
+    ]
+  },
+  {
+    "nlTask": "Always avoid: go to house 4 and pick up bottle 2 at any time",
+    "ltlequ": [
+      "[]!(house_4&&p_bottle_2)/"
+    ]
+  },
+  {
+    "nlTask": "Always avoid touching letter 8",
+    "ltlequ": [
+      "[]!p_letter_8/"
+    ]
+  },
+  {
+    "nlTask": "Deliver package 8 from store 7 to house 2 without entering street 4",
+    "ltlequ": [
+      "[]!street_4&&<>(store_7&&<>(p_package_8&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Go to section 3 at some point, but make sure you never enter hall 5",
+    "ltlequ": [
+      "<>section_3&&[]!hall_5/"
+    ]
+  },
+  {
+    "nlTask": "Always avoid going to building 9",
+    "ltlequ": [
+      "[]!building_9/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to street 4 before reaching intersection 2, as you proceed to house 13 and collect trash 13",
+    "ltlequ": [
+      "!street_4Uintersection_2&&<>(house_13&&p_trash_13)/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of monument 3 and then go to pathway 8 and stay there",
+    "ltlequ": [
+      "<>(monument_3&&photo&&<>(pathway_8&&[]pathway_8))/"
+    ]
+  },
+  {
+    "nlTask": "Never visit house 3 under any circumstances",
+    "ltlequ": [
+      "[]!house_3/"
+    ]
+  },
+  {
+    "nlTask": "Locate cone 5 in intersection 5 and deliver it to street 2",
+    "ltlequ": [
+      "<>(intersection_5&&<>(p_cone_5&&<>(street_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from intersection 4 until you reach street 5",
+    "ltlequ": [
+      "!intersection_4Ustreet_5/"
+    ]
+  },
+  {
+    "nlTask": "Find your way to intersection 5 and stay there permanently",
+    "ltlequ": [
+      "<>[]intersection_5/"
+    ]
+  },
+  {
+    "nlTask": "Go to mall 5 and stay within its boundaries indefinitely",
+    "ltlequ": [
+      "<>[]mall_5/"
+    ]
+  },
+  {
+    "nlTask": "Continuously take pictures of landmark 21 at regular intervals",
+    "ltlequ": [
+      "[]<>(landmark_21&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure that you never visit park 5",
+    "ltlequ": [
+      "[]!park_5/"
+    ]
+  },
+  {
+    "nlTask": "Start by reaching park 5, and then proceed to take a photo of monument 3",
+    "ltlequ": [
+      "<>(park_5&&<>(monument_3&&photo))/"
+    ]
+  },
+  {
+    "nlTask": "Go to park 7, and afterward, take a picture of monument 4",
+    "ltlequ": [
+      "<>(park_7&&<>(monument_4&&photo))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in building 2 until you reach path 3",
+    "ltlequ": [
+      "building_2Upath_3/"
+    ]
+  },
+  {
+    "nlTask": "Ensure that you keep visiting charger 9 and keep moving crate 2 from warehouse 8 to store 2",
+    "ltlequ": [
+      "[]<>charger_9&&[]<>(warehouse_8&&<>(p_crate_2&&<>(store_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep going to charger 12 while you keep taking box 1 from house 5 to house 23 periodically",
+    "ltlequ": [
+      "[]<>charger_12&&[]<>(house_5&&<>(p_box_1&&<>(house_23&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in locality 6 until you transport package 3 from store 8 to house 5",
+    "ltlequ": [
+      "locality_6U(store_8&&<>(p_package_3&&<>(house_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Eventually(Take a picture of monument 12 and remain there permanently)",
+    "ltlequ": [
+      "<>(monument_12&&photo&&[]monument_12)/"
+    ]
+  },
+  {
+    "nlTask": "Reach street 5, and after that, go to house 4",
+    "ltlequ": [
+      "<>(street_5&&<>house_4)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up brochure 5 from table 2 and put it in street 5",
+    "ltlequ": [
+      "<>(table_2&&<>(p_brochure_5&&<>(street_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of arch 4 but never enter park 2",
+    "ltlequ": [
+      "<>(arch_4&&photo)&&[]!park_2/"
+    ]
+  },
+  {
+    "nlTask": "Pick up package 2 from store 3, take it to house 2, while avoiding mall 1 completely",
+    "ltlequ": [
+      "<>(store_3&&<>(p_package_2&&<>(house_2&&pd)))&&[]!mall_1/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve letter 4 at office 5 and transport it to house 2",
+    "ltlequ": [
+      "<>(office_5&&<>(p_letter_4&&<>(house_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Deliver box 1 from store 6 to house 9 and then go to intersection 5 and stay there",
+    "ltlequ": [
+      "<>(store_6&&<>(p_box_1&&<>(house_9&&pd)))&&<>(intersection_5&&[]intersection_5)/"
+    ]
+  },
+  {
+    "nlTask": "Continuously transport crate 1 from storage 4 to office 2",
+    "ltlequ": [
+      "[]<>(storage_4&&<>(p_crate_1&&<>(office_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you stay in locality 2 while transferring document 5 from office 4 to office 9",
+    "ltlequ": [
+      "[]locality_2&&<>(office_4&&<>(p_document_5&&<>(office_9&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Capture an image of landmark 6",
+    "ltlequ": [
+      "<>(landmark_6&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Always remain in street 8",
+    "ltlequ": [
+      "[]street_8/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve trash 4 at house 4 and take it to garbage dump 1",
+    "ltlequ": [
+      "<>(house_4&&<>(p_trash_4&&<>(garbage_dump_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Continuusly revisit street 4 over time",
+    "ltlequ": [
+      "[]<>street_4/"
+    ]
+  },
+  {
+    "nlTask": "Avoid going to parking lot 5 as you take a picture of car 3",
+    "ltlequ": [
+      "[]!parking_lot_5&&<>(car_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to street 5 and stay away from parking lot 2",
+    "ltlequ": [
+      "<>street_5&&[]!parking_lot_2/"
+    ]
+  },
+  {
+    "nlTask": "Do not pick up package 5 under any circumstances",
+    "ltlequ": [
+      "[]!p_package_5/"
+    ]
+  },
+  {
+    "nlTask": "Visit park 5 first and then take a photo of monument 3",
+    "ltlequ": [
+      "<>(park_5&&<>(monument_3&&photo))/"
+    ]
+  },
+  {
+    "nlTask": "Continuously take pictures of building 5 while repeatedly visiting charger 4",
+    "ltlequ": [
+      "[]<>(building_5&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering street 6 while you take a picture of car 1",
+    "ltlequ": [
+      "[]!street_6&&<>(car_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you reach house 5 and stay there forever",
+    "ltlequ": [
+      "<>[]house_5/"
+    ]
+  },
+  {
+    "nlTask": "Drop any item you have and move to parking lot 2",
+    "ltlequ": [
+      "<>(pd&&<>parking_lot_2)/"
+    ]
+  },
+  {
+    "nlTask": "Always remain in street 5 while continuously taking pictures of parking lot 4",
+    "ltlequ": [
+      "[]street_5&&[]<>(parking_lot_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Always stay in locality 7 as you take letter 1 from office 4 to house 1",
+    "ltlequ": [
+      "[]locality_7&&<>(office_4&&<>(p_letter_1&&<>(house_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in area 2 as you keep goint to building 8 to take a picture",
+    "ltlequ": [
+      "[]area_2&&[]<>(building_8&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from street 4 until you arrive at intersection 6 and then proceed to and remain in street 4",
+    "ltlequ": [
+      "!street_4Uintersection_6&&<>[]street_4/"
+    ]
+  },
+  {
+    "nlTask": "Stay within parking lot 4 until you get to car 5",
+    "ltlequ": [
+      "parking_lot_4Ucar_5/"
+    ]
+  },
+  {
+    "nlTask": "Visit parking lot 5 and remain there indefinitely.",
+    "ltlequ": [
+      "<>[]parking_lot_5/"
+    ]
+  },
+  {
+    "nlTask": "Remain at parking lot 4 until you have taken a photo of car 5",
+    "ltlequ": [
+      "parking_lot_4U(car_5&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to park 5 and then take a picture of monument 3",
+    "ltlequ": [
+      "<>(park_5&&<>(monument_3&&photo))/"
+    ]
+  },
+  {
+    "nlTask": "Do not visit either street 3 or street 4 at any point",
+    "ltlequ": [
+      "[]!(street_3||street_4)/"
+    ]
+  },
+  {
+    "nlTask": "Retrieve pass 2 from house 3 and deliver it to office 2 while avoiding street 5 until after picking up pass 2",
+    "ltlequ": [
+      "<>(house_3&&<>(p_pass_2&&<>(office_2&&pd)))&&!street_5Up_pass_2/"
+    ]
+  },
+  {
+    "nlTask": "Deliver package 2 from warehouse 3 to house 1 and take a picture at house 1",
+    "ltlequ": [
+      "<>(warehouse_3&&<>(p_package_2&&<>(house_1&&pd&&photo)))/"
+    ]
+  },
+  {
+    "nlTask": "Keep visiting street 4",
+    "ltlequ": [
+      "[]<>street_4/"
+    ]
+  },
+  {
+    "nlTask": "Keep capturing images of intersection 4 periodically",
+    "ltlequ": [
+      "[]<>(intersection_4&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to hospital 3 and grab water bottle 4, as you ensure you never enter pharmacy 2",
+    "ltlequ": [
+      "<>(hospital_3&&p_bottle_4)&&[]!pharmacy_2/"
+    ]
+  },
+  {
+    "nlTask": "Do not go to park 5 until you reach intersection 4",
+    "ltlequ": [
+      "!park_5Uintersection_4/"
+    ]
+  },
+  {
+    "nlTask": "Be in park 5 until you take a picture of monument 2 and then go to intersection 5 and stay there",
+    "ltlequ": [
+      "park_5U(monument_2&&photo&&<>(intersection_5&&[]intersection_5))/"
+    ]
+  },
+  {
+    "nlTask": "Take a picture of arch 1",
+    "ltlequ": [
+      "<>(arch_1&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you keep photographing area 4 and regularly take pictures of area 3",
+    "ltlequ": [
+      "[]<>(area_4&&photo)&&[]<>(area_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Ensure you keep going to street 5 at regular intervals",
+    "ltlequ": [
+      "[]<>street_5/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering office 4 until you pick up pass 6, and ensure you go to house 5, collect pass 6, and then deliver it to office 4",
+    "ltlequ": [
+      "!office_4Up_pass_6&&<>(house_5&&<>(p_pass_6&&<>(office_4&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay within parking lot 9 until you capture a photo of car 2",
+    "ltlequ": [
+      "parking_lot_9U(car_2&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Pick up brochure 2 from table 8 and subsequently deliver it to table 1",
+    "ltlequ": [
+      "<>(table_8&&<>(p_brochure_2&&<>(table_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Deliver brochure 3 from table 9 to park 2",
+    "ltlequ": [
+      "<>(table_9&&<>(p_brochure_3&&<>(park_2&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from room 4 until you reach building 4",
+    "ltlequ": [
+      "!room_4Ubuilding_4/"
+    ]
+  },
+  {
+    "nlTask": "Stay within locality 6 until you collect package 3 from store 8 and transport it to house 5",
+    "ltlequ": [
+      "locality_6U(store_8&&<>(p_package_3&&<>(house_5&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Repeatedly capture photos of statue 4 while persistently returning to charger 4",
+    "ltlequ": [
+      "[]<>(statue_4&&photo)&&[]<>charger_4/"
+    ]
+  },
+  {
+    "nlTask": "Keep photographing monument 8 while ensuring you do not visit monument 8 before reaching park 4",
+    "ltlequ": [
+      "[]<>(monument_8&&photo)&&!monument_8Upark_4/"
+    ]
+  },
+  {
+    "nlTask": "Remain in park 4 until you take a photo of statue 9",
+    "ltlequ": [
+      "park_4U(statue_9&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Stay away from intersection 4 until you get to street 5",
+    "ltlequ": [
+      "!intersection_4Ustreet_5/"
+    ]
+  },
+  {
+    "nlTask": "Never go to parking lot 5 as you capture a photo of car 3",
+    "ltlequ": [
+      "[]!parking_lot_5&&<>(car_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Keep photographing street 3 at regular intervals",
+    "ltlequ": [
+      "[]<>(street_3&&photo)/"
+    ]
+  },
+  {
+    "nlTask": "Go to office 3 to pick up document 1 and move to street 2 to remain there indefinitely",
+    "ltlequ": [
+      "<>(office_3&&<>(p_document_1&&<>(street_2&&[]street_2)))/"
+    ]
+  },
+  {
+    "nlTask": "Stay in locality 3 until you reach office 4",
+    "ltlequ": [
+      "locality_3Uoffice_4/"
+    ]
+  },
+  {
+    "nlTask": "Go to park 8 and never leave",
+    "ltlequ": [
+      "<>[]park_8/"
+    ]
+  },
+  {
+    "nlTask": "Avoid entering intersection 5 until you reach street 4, and ensure you go to house 4, pick up pass 4, and deliver it to office 1",
+    "ltlequ": [
+      "!intersection_5Ustreet_4&&<>(house_4&&<>(p_pass_4&&<>(office_1&&pd)))/"
+    ]
+  },
+  {
+    "nlTask": "Refrain from going to room 2 until you pick up bottle 4 from kitchen 1 and place it on table 4",
+    "ltlequ": [
+      "!room_2U(kitchen_1&&<>(p_bottle_4&&<>(table_4&&pd)))/"
+    ]
+  }
+]
